@@ -1,0 +1,87 @@
+---
+title: Welcome to Gharbiya FabLab
+description: Explore our Digital Fabrication Laboratory - Where Innovation Meets Creation
+template: splash
+hero:
+  tagline: Empowering Innovation Through Digital Fabrication
+  image:
+    file: ../../imgs/fablab-logo.png
+    alt: FabLab Logo
+  actions:
+    - text: Get Started
+      link: /fablab-info
+      icon: right-arrow
+      variant: primary
+    - text: View Equipment
+      link: /machine
+      icon: setting
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Explore Our Lab
+
+<CardGrid stagger>
+	<Card title="Digital Fabrication" icon="setting">
+		Access our state-of-the-art equipment:
+		- [Laser Cutter](/machines/laser-cutter) for precision cutting
+		- [3D Printer](/machines/3d-printer) for prototyping
+		- [Vinyl Cutter](/machines/vinyl-cutter) for design work
+		- [CNC Router](/machines/shopbot) for woodworking
+	</Card>
+	<Card title="Software & Tools" icon="laptop">
+		Get started with our digital tools:
+		- [Machine Software Setup](/machine-software)
+		- [CAD/CAM Tools](/freecad)
+		- [Design Guidelines](/software)
+	</Card>
+	<Card title="Resources & Learning" icon="open-book">
+		Enhance your skills:
+		- [Learning Challenges](/challenges/new-challenges)
+		- [Mobile Development](/challenges/mob-app)
+		- [Hardware Projects](/challenges/boards)
+		- [Web Development](/challenges/web-app)
+	</Card>
+	<Card title="Lab Management" icon="document">
+		Access our inventory systems:
+		- [Components](/inventory/components)
+		- [Materials](/inventory/materials-inventory)
+		- [Tools](/inventory/tools-inventory)
+		- [Equipment](/inventory/machine-inventory)
+	</Card>
+</CardGrid>
+
+## Community & Projects
+
+<CardGrid>
+	<Card title="Meet Our Team" icon="starlight">
+		Join our active community:
+		- [Team Members](/team/fablab-team-members)
+		- [Activities Log](/team/fablab-team-activ)
+		- [Team Updates](/team/fablab-team-updates)
+	</Card>
+	<Card title="Featured Projects" icon="rocket">
+		Discover inspiring work:
+		- [Student Projects](/team/boys-doc)
+		- [Team Achievements](/team/girls-doc)
+		- [Latest Updates](/team/fablab-team-updates)
+	</Card>
+</CardGrid>
+
+## Get Involved
+
+<CardGrid>
+	<Card title="Start Learning" icon="pen">
+		Begin your journey:
+		- Take on [challenges](/challenges/new-challenges)
+		- Learn [machine operation](/machine)
+		- Join team [activities](/team/fablab-team-activ)
+	</Card>
+	<Card title="Resource Center" icon="information">
+		Access our resources:
+		- [Equipment guides](/machines/laser-cutter)
+		- [Software tutorials](/machine-software)
+		- [Project documentation](/team/fablab-team-activ)
+	</Card>
+</CardGrid>
