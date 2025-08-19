@@ -52,17 +52,17 @@ if problems happend
      `git commit -m "Initial commit"`  
      `git push -u origin master`
   5. Fire up a browser and go to https://username.github.io  
-     ![first webpage](/src/imgs/documontations/challenges/first.png)
+     ![first webpage](/src/assets/documontations/challenges/first.png)
 - Jekyll themes on GitHub
   1. If you don't already have a repository for your GitHub Pages site, create a new repository with a README.
   2. Navigate to your GitHub Pages site's repository
   3. Under your repository name, click Settings  
-     ![repo](/src/imgs/documontations/challenges/repo.png)
+     ![repo](/src/assets/documontations/challenges/repo.png)
   4. On the settings page, scroll down and under "GitHub Pages"
      - Click Choose a theme to add a theme to your site for the first time  
-       ![theme](/src/imgs/documontations/challenges/theme.png)
+       ![theme](/src/assets/documontations/challenges/theme.png)
      - Click Change theme to change an existing theme for your site  
-       ![change](/src/imgs/documontations/challenges/change.png)
+       ![change](/src/assets/documontations/challenges/change.png)
   5. On the theme selection page, review your theme options. To choose a theme, click the theme you want and then click Select theme  
-     ![select](/src/imgs/documontations/challenges/select.png)
+     ![select](/src/assets/documontations/challenges/select.png)
 - select theme from git `settings` then `github pages` then `change theme`
