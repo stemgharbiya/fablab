@@ -8,16 +8,16 @@ description: Documentation of custom PCB designs and fabrication attempts, inclu
 ## attiny 44 with usb port
 
 - first try
-- ![attiny](/src/assets/documontations/challenges/attiny44-usb.JPG)
+- ![attiny](../../../assets/documontations/challenges/attiny44-usb.JPG)
 - failed because of small usb wide and bad leveling of the plate of monofab machine.
 - i changed the wide of the usb port and leveling the monofab using modela and 3mm bit
 - second try
-- ![attiny](/src/assets/documontations/challenges/attiny44-usb2.JPG)
+- ![attiny](../../../assets/documontations/challenges/attiny44-usb2.JPG)
 - adding components
-- ![comp](/src/assets/documontations/challenges/usb-components.JPG)
+- ![comp](../../../assets/documontations/challenges/usb-components.JPG)
 - testing the circuit
-- ![test](/src/assets/documontations/challenges/usb-test.JPG)
+- ![test](../../../assets/documontations/challenges/usb-test.JPG)
 - adding wires to connect it to other devices
-- ![wires](/src/assets/documontations/challenges/usb-wires.JPG)
+- ![wires](../../../assets/documontations/challenges/usb-wires.JPG)
 - try powering the board using ftdi
-- ![ftdi](/src/assets/documontations/challenges/usb-ftdi.JPG)
+- ![ftdi](../../../assets/documontations/challenges/usb-ftdi.JPG)
