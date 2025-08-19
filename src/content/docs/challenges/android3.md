@@ -9,7 +9,7 @@ description: Advanced Android concepts including Activity Lifecycle and app stat
 
 - inheret
 - activity lifecycle
-- ![activ](/src/assets/documontations/challenges/activity_lifecycle.png)
+- ![activ](../../../assets/documontations/challenges/activity_lifecycle.png)
 - `onCreate()` : Called when the activity is first created. This is where you should do all of your normal static set up: create views, bind data to lists, etc. This method also provides you with a Bundle containing the activity's previously frozen state, if there was one.
   Always followed by onStart().
 - `onRestart()` : Called after your activity has been stopped, prior to it being started again.

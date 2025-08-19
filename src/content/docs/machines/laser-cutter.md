@@ -8,25 +8,25 @@ description: Guide to using the Epilog laser cutter for engraving and cutting va
 ## Purpose
 
 - Award Engraving
-  ![award](/src/assets/documontations/machines/award.jpg)
+  ![award](../../../assets/documontations/machines/award.jpg)
 
 - Wood Engraving and Cutting
-  ![wood](/src/assets/documontations/machines/maple-cut.jpg)
+  ![wood](../../../assets/documontations/machines/maple-cut.jpg)
 
 - Glass Engraving and Etching
-  ![glass](/src/assets/documontations/machines/glass.jpg)
+  ![glass](../../../assets/documontations/machines/glass.jpg)
 
 - Acrylic Cutting and Engraving
-  ![acrylic](/src/assets/documontations/machines/acrylic.jpg)
+  ![acrylic](../../../assets/documontations/machines/acrylic.jpg)
 
 - Metal Marking with a CO2 Laser
-  ![metal](/src/assets/documontations/machines/metal.gif)
+  ![metal](../../../assets/documontations/machines/metal.gif)
 
 - Personal Electronics Device Engraving
-  ![laptop](/src/assets/documontations/machines/laptop.jpg)
+  ![laptop](../../../assets/documontations/machines/laptop.jpg)
 
 - Fabric & Textiles Engraving
-  ![leather](/src/assets/documontations/machines/leather.jpg)
+  ![leather](../../../assets/documontations/machines/leather.jpg)
 
 ## Minimum knowledge to use machine
 
@@ -52,7 +52,7 @@ description: Guide to using the Epilog laser cutter for engraving and cutting va
 
 ## Materials
 
-![materials](/src/assets/documontations/machines/materials.png)
+![materials](../../../assets/documontations/machines/materials.png)
 
 ## Working time
 
@@ -78,18 +78,18 @@ description: Guide to using the Epilog laser cutter for engraving and cutting va
   - clean the mirrors and lenses of the laser
   - The two optical components most likely to require cleaning are the focus lens and the mirror directly above it
   - never use alcohol or hardware grade acetone  
-    ![clean1](/src/assets/documontations/machines/clean_optics.jpg)  
-    ![clean2](/src/assets/documontations/machines/clean_optics2.jpg)  
-    ![clean3](/src/assets/documontations/machines/clean_optics3.jpg)
+    ![clean1](../../../assets/documontations/machines/clean_optics.jpg)  
+    ![clean2](../../../assets/documontations/machines/clean_optics2.jpg)  
+    ![clean3](../../../assets/documontations/machines/clean_optics3.jpg)
 - Cleaning the X-Axis Linear Encoder Strip
   - There are seven screws that attach the x-axis linear guide cover, Unscrew each of the screws until each one is loose enough to remove the linear guide cover
   - You will not need to completely remove all of the screws to remove the cover
   - The linear encoder strip is the clear plastic strip that runs along the width of the x-axis beam
   - Using the cotton swab dipped in distilled water, wipe the cotton swab along the front and back side of the linear encoder strip to remove any smoke or dust debris that might have collected on the strip
     Once you've finished wiping down each side of the encoder strip, go back with a dry cotton swab and wipe away any moisture that might have been left behind  
-    ![clean4](/src/assets/documontations/machines/clean_optics4.jpg)  
-    ![clean5](/src/assets/documontations/machines/clean_optics5.jpg)  
-    ![clean6](/src/assets/documontations/machines/clean_optics6.jpg)
+    ![clean4](../../../assets/documontations/machines/clean_optics4.jpg)  
+    ![clean5](../../../assets/documontations/machines/clean_optics5.jpg)  
+    ![clean6](../../../assets/documontations/machines/clean_optics6.jpg)
 - Lubricate the x-axis (the long side) bearing rail, after cleaning the rail place about an inch long bead of epilog supplied grease into the top and bottom grooves of the x-axis rail
 - clean the right side y-axis rail using soft cotton cloth, lubrication is not required
 
@@ -127,9 +127,9 @@ description: Guide to using the Epilog laser cutter for engraving and cutting va
 - try center-center engraving
 - try page center feature of the shape that is not regular
 - task plate : is general-purpose engraving table surface used for all projects that do not include vector cutting, it is good at engraving because it provides the mose even, flat engraving surface.  
-  ![engraving-table](/src/assets/documontations/machines/engraving-table.jpeg)
+  ![engraving-table](../../../assets/documontations/machines/engraving-table.jpeg)
 - vector cutting table : is used when you are cutting all the way through a material  
-  ![vector-table](/src/assets/documontations/machines/vector-table.jpeg)
+  ![vector-table](../../../assets/documontations/machines/vector-table.jpeg)
 - if you have a piece of sheet stock that does not flatten out because it is not covering enough of the vacuum holes, you can use any material, to cover some of the exposed holes, simply blocking most of the vacuum holes will be enough to flatten most sheet stock as long as it is not too severely warped
 - rim -drive rotary attachment  
-  ![rotatary](/src/assets/documontations/machines/rotatary.jpg) - it allows you to mark and engrave on cylindrical objects - how to use it? 1. lower the engraving table to it's lowest point 2. turn off the power to the laser 3. flip the rulers and gaurds into their up position 4. remove the plate 5. remove the crumb tray, you will see three holes in the tray that mate to the three pins on the bottom of the rotary attachment, plug the attachment into the white connector 6. power on the laser, the engraver now knows that the rotary attachment is installed and changes its home position to a point directly above the center point of the drive wheels on the attachment - how to place the item? - the wheels on the left are the drive wheels which spin the cylinder, the wheels on the right are for support - the right side wheels are mounted on a scissor jack so they can be raised or lowered to level the top surface of your cylinder - in most cases you will want to loas your cylinder with the larger diameter on the left - load your cylinder onto the rotary attachment so that it is just touching the black bumper - use the clamp to hold the glass in place is optional - if your clyinder is not horizontal to the x-beam the laser will lose focus as the carriage head moves across the job - how to set the focus - the auto focus feature works with the rotary attachment - to manually focus your item - place your cylinder on the rotary - place the focus gauge on the lens carriage and set the focus - if you want to move the focus gauge to a different area of the cylinder, press the x/y off key, then go key to move the laser carriage to the point where you want to focus the laser, then press the focus key and use the up and down arrows to bring the table to the correct height
+  ![rotatary](../../../assets/documontations/machines/rotatary.jpg) - it allows you to mark and engrave on cylindrical objects - how to use it? 1. lower the engraving table to it's lowest point 2. turn off the power to the laser 3. flip the rulers and gaurds into their up position 4. remove the plate 5. remove the crumb tray, you will see three holes in the tray that mate to the three pins on the bottom of the rotary attachment, plug the attachment into the white connector 6. power on the laser, the engraver now knows that the rotary attachment is installed and changes its home position to a point directly above the center point of the drive wheels on the attachment - how to place the item? - the wheels on the left are the drive wheels which spin the cylinder, the wheels on the right are for support - the right side wheels are mounted on a scissor jack so they can be raised or lowered to level the top surface of your cylinder - in most cases you will want to loas your cylinder with the larger diameter on the left - load your cylinder onto the rotary attachment so that it is just touching the black bumper - use the clamp to hold the glass in place is optional - if your clyinder is not horizontal to the x-beam the laser will lose focus as the carriage head moves across the job - how to set the focus - the auto focus feature works with the rotary attachment - to manually focus your item - place your cylinder on the rotary - place the focus gauge on the lens carriage and set the focus - if you want to move the focus gauge to a different area of the cylinder, press the x/y off key, then go key to move the laser carriage to the point where you want to focus the laser, then press the focus key and use the up and down arrows to bring the table to the correct height

@@ -10,14 +10,14 @@ description: Step-by-step guide to web development basics including HTML, CSS, a
 - install code editor called [sublime](https://www.sublimetext.com/docs/3/linux_repositories.html#apt)
 - dealing with tags
   - `<html>` , `<head>` ,`<title>` , `<body>`
-  - [hello world](/src/assets/documontations/challenges/hello-world.html)
-  - [item list](/src/assets/documontations/challenges/item-list.html)
-  - [paragraph](/src/assets/documontations/challenges/paragraph.html)
-  - [header](/src/assets/documontations/challenges/header.html)
+  - [hello world](../../../assets/documontations/challenges/hello-world.html)
+  - [item list](../../../assets/documontations/challenges/item-list.html)
+  - [paragraph](../../../assets/documontations/challenges/paragraph.html)
+  - [header](../../../assets/documontations/challenges/header.html)
 - dealing with attributes
   - `<a ></a>
-  - [hyper link](/src/assets/documontations/challenges/hyper-link.html)
-  - [image](/src/assets/documontations/challenges/image.html)
+  - [hyper link](../../../assets/documontations/challenges/hyper-link.html)
+  - [image](../../../assets/documontations/challenges/image.html)
 
 ## [Web Development Tutorial for Beginners 2](https://www.youtube.com/watch?v=gBi8Obib0tw)
 
