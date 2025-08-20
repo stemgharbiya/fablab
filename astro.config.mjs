@@ -2,6 +2,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import starlightThemeNova from 'starlight-theme-nova'
+import starlightBlog from 'starlight-blog';
 
 // https://astro.build/config
 export default defineConfig({
@@ -14,10 +15,24 @@ export default defineConfig({
 					nav: [
 						{ label: 'Home', href: '/' },
 						{ label: 'About', href: '/fablab-info' },
-						{ label: 'Machines', href: '/machine' },
+						{ label: 'Blog', href: '/blog' },
 						{ label: 'Team', href: '/team/fablab-team-members' },
 					],
-				})
+				}), 
+				starlightBlog({metrics: {
+    readingTime: true,
+    words: 'total',
+  },
+
+		authors: {
+			saifabdelrazek: {
+				name: 'Saif Abdelrazek',
+				title: 'FabLab Gharbia Developer',
+				picture: '/saifabdelrazek.jpg',
+				url: 'https://www.saifabdelrazek.com',
+			},
+		},
+	})
 			],
 			social: [
 				{ icon: 'github', label: 'GitHub', href: 'https://github.com/fablabgharbia/docs' },
