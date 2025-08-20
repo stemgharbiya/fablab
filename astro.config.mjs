@@ -120,7 +120,7 @@ export default defineConfig({
 				{
 					label: 'Learning Resources',
 					items: [
-						{ label: 'Challenge Overview', link: '/challenges/new-challenges' },
+						{ label: 'Challenge Overview', link: '/challenges/' },
 						{ 
 							label: 'All Challenges',
 							autogenerate: { 
