@@ -22,6 +22,41 @@ export default defineConfig({
 			social: [
 				{ icon: 'github', label: 'GitHub', href: 'https://github.com/fablabgharbia/docs' },
 			],
+			head: [
+				// Meta tags for site verification
+				{
+					tag: 'meta',
+					attrs: {
+						name: 'msvalidate.01',
+						content: '172AB24A6FB2AE59B2ADE9024918D626',
+					},
+				},
+				{
+					tag: 'meta',
+					attrs: {
+						name: 'google-site-verification',
+						content: 'O6m7pE8it0AIdabIBBkBi8lPgacgag9PlVoBXV_O8oA',
+					},
+				},
+				// Favicon
+				{
+					tag: 'link',
+					attrs: {
+						rel: 'icon',
+						href: '/fablab-logo.png',
+						type: 'image/svg+xml',
+					},
+				},
+				// Umami analytics script tag
+				{
+					tag: 'script',
+					attrs: {
+						defer: true,
+						src: 'https://umami.saifdev.org/script.js',
+						'data-website-id': '42658e4e-4a81-4138-8c72-bf9c64fa1575',
+					},
+				},
+			],
 			sidebar: [
 				{
 					label: 'Getting Started',
@@ -78,16 +113,6 @@ export default defineConfig({
 					],
 				},
 			],
-			head: [
-				{
-					tag: 'link',
-					attrs: {
-						rel: 'icon',
-						href: '/favicon.svg',
-						type: 'image/svg+xml',
-					},
-				},
-			]
 		}),
 	],
 });
