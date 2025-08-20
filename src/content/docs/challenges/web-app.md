@@ -10,14 +10,119 @@ description: Step-by-step guide to web development basics including HTML, CSS, a
 - install code editor called [sublime](https://www.sublimetext.com/docs/3/linux_repositories.html#apt)
 - dealing with tags
   - `<html>` , `<head>` ,`<title>` , `<body>`
-  - [hello world](../../../assets/documontations/challenges/hello-world.html)
-  - [item list](../../../assets/documontations/challenges/item-list.html)
-  - [paragraph](../../../assets/documontations/challenges/paragraph.html)
-  - [header](../../../assets/documontations/challenges/header.html)
+  - hello world:
+  ```html
+  <html>
+    <head>
+      <title>        
+        This is my first website
+      </title>
+    </head>
+    <body>
+      Hello world<br>
+      use <strong>bold style</strong><br>
+      use <em>italic style</em>
+    </body>
+  </html>
+  ```
+  - item list:
+  ```html
+  <html>
+    <head>
+      <title>        
+        This is my third website
+      </title>
+    </head>
+    <body>
+      <ul>
+        <li>first item</li>
+        <li>second item</li>
+        <li>etc</li>
+      </ul>
+      <ol>
+        <li>one</li>
+        <li>two</li>
+        <li>etc</li>
+      </ol>
+    </body>
+  </html>
+  ```
+  - paragraph:
+  ```html
+  <html>
+    <head>
+      <title>        
+        This is my fourth website
+      </title>
+    </head>
+    <body>
+      <p>
+        First paragraph
+      </p>
+      <p>
+        Second paragraph
+      </p>
+      <p>
+        Third paragraph
+      </p>
+      <p>
+        Etc...
+      </p>
+    </body>
+  </html>
+  ```
+  - header:
+  ```html
+  <html>
+    <head>
+      <title>        
+        This is my fourth website
+      </title>
+    </head>
+    <body>
+      <h1>
+        Biggest
+      </h1>
+      <h2>
+        Smaller than the biggest
+      </h2>
+      <h3>
+        More Smaller
+      </h3>
+      <h4>
+        Etc
+      </h4>
+    </body>
+  </html>
+  ```
 - dealing with attributes
   - `<a ></a>
-  - [hyper link](../../../assets/documontations/challenges/hyper-link.html)
-  - [image](../../../assets/documontations/challenges/image.html)
+  - hyper link:
+  ```html
+  <html>
+    <head>
+      <title>        
+        This is my second website
+      </title>
+    </head>
+    <body>
+      <a href="https://ahmed-khairy.github.io/fablab.github.io/">fab lab website</a>
+    </body>
+  </html>
+  ```
+  - image:
+  ```html
+  <html>
+    <head>
+      <title>        
+        This is my third website
+      </title>
+    </head>
+    <body>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Fab_Lab_logo.svg">
+    </body>
+  </html>
+  ```
 
 ## [Web Development Tutorial for Beginners 2](https://www.youtube.com/watch?v=gBi8Obib0tw)
 

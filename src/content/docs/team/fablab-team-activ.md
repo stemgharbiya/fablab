@@ -240,7 +240,7 @@ description: Chronological record of FabLab team meetings, projects, and learnin
     - After that I saved the project as `stl`.
     - Then used cura application to convert it to `gcode` and saved it in SD card
     - Finally, I put the card in the 3D printer to start print. It takes 1.15 hour to protect this shape.
-    - [pyramid file](../../../assets/documontations/team/pyramid.stl)
+    - [pyramid file](/team/pyramid.stl)
 
 ## Nourhan - 2/9/2019
 ![nourhan](../../../assets/documontations/team/nourhan.JPG)
