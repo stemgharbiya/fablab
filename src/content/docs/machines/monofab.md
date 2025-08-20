@@ -5,8 +5,8 @@ description: Guide to using the Roland Monofab SRM-20 for PCB milling, prototypi
 
 # Monofab - srm20
 
-![monofab](../../../assets/documontations/machines/monofab.png)  
-![monofab2](../../../assets/documontations/machines/monofab2.png)
+![monofab](../../../assets/docs/machines/monofab.png)  
+![monofab2](../../../assets/docs/machines/monofab2.png)
 
 ## Purpose
 
@@ -16,45 +16,45 @@ description: Guide to using the Roland Monofab SRM-20 for PCB milling, prototypi
 ## Minimum knowledge to use machine
 
 - cutting tools  
-  ![bits](../../../assets/documontations/machines/bits.png)
+  ![bits](../../../assets/docs/machines/bits.png)
 
 - cutting area x,y  
-  ![area](../../../assets/documontations/machines/area.png)
+  ![area](../../../assets/docs/machines/area.png)
 
 - cutting area z  
-  ![area2](../../../assets/documontations/machines/area2.png)
+  ![area2](../../../assets/docs/machines/area2.png)
 
 - softwares used
 
   - `vpanel` : to control the axis and start the job  
-    ![vpanel](../../../assets/documontations/machines/vpanel.png)
+    ![vpanel](../../../assets/docs/machines/vpanel.png)
 
   - `SRP Player` : This is a CAM software that imports general-use 3D data, (such as IGES, DXF (3D), or STL), and lets you easily prepare tool paths and output them to the SRM-20.  
-    ![srp](../../../assets/documontations/machines/srp.png)
+    ![srp](../../../assets/docs/machines/srp.png)
 
   - `Modela Player 4` : This is a CAM software that imports general-use 3D data, (such as IGES, DXF (3D), or STL), and lets you easily prepare tool paths and output them to the SRM-20.  
-    ![modela](../../../assets/documontations/machines/modela.png)
+    ![modela](../../../assets/docs/machines/modela.png)
 
 - The Flow of One Side Cutting  
-  ![one-side](../../../assets/documontations/machines/one-side.png)
+  ![one-side](../../../assets/docs/machines/one-side.png)
 
 - Preparing the Machine  
-  ![prepare](../../../assets/documontations/machines/prepare.png)
+  ![prepare](../../../assets/docs/machines/prepare.png)
 
 - attaching the cutting tool  
-  ![bit](../../../assets/documontations/machines/bit.png)  
-  ![bit2](../../../assets/documontations/machines/cm.png)
+  ![bit](../../../assets/docs/machines/bit.png)  
+  ![bit2](../../../assets/docs/machines/cm.png)
 
 - attach the material to the table
 
   - Mark the location that will be the origin point of the material.  
-    ![origin](../../../assets/documontations/machines/origin.png)
+    ![origin](../../../assets/docs/machines/origin.png)
 
   - Stick double-stick tape on the material.  
-    ![double](../../../assets/documontations/machines/double.png)
+    ![double](../../../assets/docs/machines/double.png)
 
   - set the origin of the vpanel  
-    ![origin2](../../../assets/documontations/machines/origin2.png)
+    ![origin2](../../../assets/docs/machines/origin2.png)
 
 - Loadable workpiece weight : 2 kg
 - operating speed : 6 ~ 1800 mm/min
@@ -74,10 +74,10 @@ description: Guide to using the Roland Monofab SRM-20 for PCB milling, prototypi
 
 ## Maintenance
 
-- ![cleann](../../../assets/documontations/machines/cleann1.png)
-- ![cleann2](../../../assets/documontations/machines/cleann2.png)
-- ![cleann3](../../../assets/documontations/machines/cleann3.png)
-- ![position](../../../assets/documontations/machines/change-pos.png)
+- ![cleann](../../../assets/docs/machines/cleann1.png)
+- ![cleann2](../../../assets/docs/machines/cleann2.png)
+- ![cleann3](../../../assets/docs/machines/cleann3.png)
+- ![position](../../../assets/docs/machines/change-pos.png)
 
 ### Procedures
 
@@ -96,4 +96,4 @@ description: Guide to using the Roland Monofab SRM-20 for PCB milling, prototypi
 ## advanced
 
 - Z Cutting Range by Changing the Position of the Spindle Unit  
-  ![range](../../../assets/documontations/machines/working-range.png)
+  ![range](../../../assets/docs/machines/working-range.png)
