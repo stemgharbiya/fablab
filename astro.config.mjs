@@ -3,6 +3,7 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import starlightThemeNova from 'starlight-theme-nova'
 import starlightBlog from 'starlight-blog';
+import starlightLinksValidator from 'starlight-links-validator'
 
 // https://astro.build/config
 export default defineConfig({
@@ -11,6 +12,7 @@ export default defineConfig({
 		starlight({
 			title: 'Gharbiya FabLab',
 			plugins: [
+				starlightLinksValidator(),
 				starlightThemeNova({
 					nav: [
 						{ label: 'Home', href: '/' },

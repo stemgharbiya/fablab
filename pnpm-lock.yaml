@@ -20,6 +20,9 @@ importers:
       starlight-blog:
         specifier: ^0.24.1
         version: 0.24.1(@astrojs/starlight@0.35.2(astro@5.13.2(@types/node@24.3.0)(rollup@4.46.3)(typescript@5.9.2)))(astro@5.13.2(@types/node@24.3.0)(rollup@4.46.3)(typescript@5.9.2))
+      starlight-links-validator:
+        specifier: ^0.17.1
+        version: 0.17.1(@astrojs/starlight@0.35.2(astro@5.13.2(@types/node@24.3.0)(rollup@4.46.3)(typescript@5.9.2)))
       starlight-theme-nova:
         specifier: ^0.9.4
         version: 0.9.4(@astrojs/starlight@0.35.2(astro@5.13.2(@types/node@24.3.0)(rollup@4.46.3)(typescript@5.9.2)))(typescript@5.9.2)
@@ -769,6 +772,9 @@ packages:
   '@types/node@24.3.0':
     resolution: {integrity: sha512-aPTXCrfwnDLj4VvXrm+UUCQjNEvJgNA8s5F1cvwQU+3KNltTOkBm1j30uNLyqqPNe7gE3KFzImYoZEfLhp4Yow==}
 
+  '@types/picomatch@3.0.2':
+    resolution: {integrity: sha512-n0i8TD3UDB7paoMMxA3Y65vUncFJXjcUf7lQY7YyKGl6031FNjfsLs6pdLFCy2GNFxItPJG8GvvpbZc2skH7WA==}
+
   '@types/sax@1.2.7':
     resolution: {integrity: sha512-rO73L89PJxeYM3s3pPPjiPgVVcymqU490g0YO5n5By0k2Erzj6tay/4lr1CHAAU4JyOWd1rpQ8bCf6cZfHU96A==}
 
@@ -1224,6 +1230,10 @@ packages:
 
   iron-webcrypto@1.2.1:
     resolution: {integrity: sha512-feOM6FaSr6rEABp/eDfVseKyTMDt+KGpeB35SkVn9Tyn0CqvVsY3EwI0v5i8nMHyJnzCIQf7nsy3p41TPkJZhg==}
+
+  is-absolute-url@4.0.1:
+    resolution: {integrity: sha512-/51/TKE88Lmm7Gc4/8btclNXWS+g50wXhYJq8HWIBAGUBnoAdRu1aXeh364t/O7wXDAcTJDP8PNuNKWUDWie+A==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
   is-alphabetical@2.0.1:
     resolution: {integrity: sha512-FWyyY60MeTNyeSRpkM2Iry0G9hpr7/9kD40mD/cGQEuilcZYS4okz8SN2Q6rLCJ8gbCt6fN+rC+6tMGS99LaxQ==}
@@ -1778,6 +1788,12 @@ packages:
     engines: {node: '>=18.20.8'}
     peerDependencies:
       '@astrojs/starlight': '>=0.33.0'
+
+  starlight-links-validator@0.17.1:
+    resolution: {integrity: sha512-d2QoBO3mQPWYq/TO4I0kT/3Z9hFulnMzMPaG2dW0H14hPq4N7ZwiBl2FMrLK8I4UE34sztcBatvWCZc62S0BMQ==}
+    engines: {node: '>=18.17.1'}
+    peerDependencies:
+      '@astrojs/starlight': '>=0.32.0'
 
   starlight-theme-nova@0.9.4:
     resolution: {integrity: sha512-LTkFpDGp3KCuwiRlNebD5v2dy3RcdirCjqcarnXeg8aR6Xr7aK5EYt8r+4X3DLkGScC1tkz47TjCPW2fD0Q6Bg==}
@@ -2808,6 +2824,8 @@ snapshots:
     dependencies:
       undici-types: 7.10.0
 
+  '@types/picomatch@3.0.2': {}
+
   '@types/sax@1.2.7':
     dependencies:
       '@types/node': 17.0.45
@@ -3479,6 +3497,8 @@ snapshots:
   inline-style-parser@0.2.4: {}
 
   iron-webcrypto@1.2.1: {}
+
+  is-absolute-url@4.0.1: {}
 
   is-alphabetical@2.0.1: {}
 
@@ -4462,6 +4482,22 @@ snapshots:
       unist-util-visit: 5.0.0
     transitivePeerDependencies:
       - astro
+      - supports-color
+
+  starlight-links-validator@0.17.1(@astrojs/starlight@0.35.2(astro@5.13.2(@types/node@24.3.0)(rollup@4.46.3)(typescript@5.9.2))):
+    dependencies:
+      '@astrojs/starlight': 0.35.2(astro@5.13.2(@types/node@24.3.0)(rollup@4.46.3)(typescript@5.9.2))
+      '@types/picomatch': 3.0.2
+      github-slugger: 2.0.0
+      hast-util-from-html: 2.0.3
+      hast-util-has-property: 3.0.0
+      is-absolute-url: 4.0.1
+      kleur: 4.1.5
+      mdast-util-mdx-jsx: 3.2.0
+      mdast-util-to-string: 4.0.0
+      picomatch: 4.0.3
+      unist-util-visit: 5.0.0
+    transitivePeerDependencies:
       - supports-color
 
   starlight-theme-nova@0.9.4(@astrojs/starlight@0.35.2(astro@5.13.2(@types/node@24.3.0)(rollup@4.46.3)(typescript@5.9.2)))(typescript@5.9.2):
