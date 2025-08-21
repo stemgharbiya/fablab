@@ -5,7 +5,7 @@ lastUpdated: 2025-08-21T14:55:00.000+03:00
 featured: false
 draft: false
 authors:
-  - key: saifabdelrazek
+  - key: ""
 ---
 
 ## Meet Our Team
