@@ -1,6 +1,8 @@
 ---
 title: Jekyll Static Site Generator
-description: Introduction to Jekyll - A Ruby-based static site generator for building websites
+description: Introduction to Jekyll - A Ruby-based static site generator for
+  building websites
+technology: Jekyll
 ---
 
 # jekyll
