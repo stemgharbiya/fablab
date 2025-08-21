@@ -1,11 +1,10 @@
 ---
 title: Meet Our Team & What is FabLab?
 date: 2025-08-20
+lastUpdated: 2025-08-21T12:10:00.000+03:00
 authors:
   - saifabdelrazek
-featured: true
-
-
+featured: false
 ---
 
 ## Meet Our Team
