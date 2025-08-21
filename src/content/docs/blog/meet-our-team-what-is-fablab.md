@@ -6,6 +6,10 @@ featured: false
 draft: false
 authors:
   - key: ""
+    name: Saif Abdelrazek
+    title: FabLab Gharbia developer
+    picture: /src/assets/blog/avatar.jpg
+    url: https://www.saifabdelrazek.com
 ---
 
 ## Meet Our Team
