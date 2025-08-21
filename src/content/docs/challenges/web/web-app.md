@@ -2,8 +2,6 @@
 title: Web Development Tutorial
 description: Step-by-step guide to web development basics including HTML, CSS,
   and JavaScript
-sidebar:
-  badge: Web
 ---
 # Web application development
 
