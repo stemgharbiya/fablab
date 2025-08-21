@@ -3,8 +3,8 @@ title: Web Development
 description: Build modern websites and web applications with popular frameworks and tools
 sidebar:
   badge:
-    text: Web
-    variant: note
+    text: ""
+    variant: null
 ---
 
 # Web Development
