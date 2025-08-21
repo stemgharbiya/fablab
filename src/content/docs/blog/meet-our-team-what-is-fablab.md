@@ -5,8 +5,7 @@ lastUpdated: 2025-08-21T14:55:00.000+03:00
 featured: false
 draft: false
 authors:
-  - key: ""
-    name: Saif Abdelrazek
+  - name: Saif Abdelrazek
     title: FabLab Gharbia developer
     picture: /src/assets/blog/avatar.jpg
     url: https://www.saifabdelrazek.com
