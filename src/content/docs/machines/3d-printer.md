@@ -1,6 +1,8 @@
 ---
 title: 3D Printer - Ultimaker 2+
-description: Guide to using the Ultimaker 2+ 3D printer, including setup, maintenance, and printing tips
+description: Guide to using the Ultimaker 2+ 3D printer, including setup,
+  maintenance, and printing tips
+machineType: 3D Printer
 ---
 
 # 3D printer - ultimaker 2+
