@@ -1,16 +1,18 @@
 ---
 title: Web Development Tutorial
-description: Step-by-step guide to web development basics including HTML, CSS, and JavaScript
+description: Step-by-step guide to web development basics including HTML, CSS,
+  and JavaScript
 ---
-
 # Web application development
 
 ## [Web Development Tutorial for Beginners 1](https://www.youtube.com/watch?v=3JluqTojuME)
 
-- install code editor called [sublime](https://www.sublimetext.com/docs/3/linux_repositories.html#apt)
-- dealing with tags
-  - `<html>` , `<head>` ,`<title>` , `<body>`
-  - hello world:
+* install code editor called [sublime](https://www.sublimetext.com/docs/3/linux_repositories.html#apt)
+* dealing with tags
+
+  * `<html>` , `<head>` ,`<title>` , `<body>`
+  * hello world:
+
   ```html
   <html>
     <head>
@@ -25,7 +27,9 @@ description: Step-by-step guide to web development basics including HTML, CSS, a
     </body>
   </html>
   ```
-  - item list:
+
+  * item list:
+
   ```html
   <html>
     <head>
@@ -47,7 +51,9 @@ description: Step-by-step guide to web development basics including HTML, CSS, a
     </body>
   </html>
   ```
-  - paragraph:
+
+  * paragraph:
+
   ```html
   <html>
     <head>
@@ -71,7 +77,9 @@ description: Step-by-step guide to web development basics including HTML, CSS, a
     </body>
   </html>
   ```
-  - header:
+
+  * header:
+
   ```html
   <html>
     <head>
@@ -95,9 +103,11 @@ description: Step-by-step guide to web development basics including HTML, CSS, a
     </body>
   </html>
   ```
-- dealing with attributes
-  - `<a ></a>
-  - hyper link:
+* dealing with attributes
+
+  * `<a ></a>
+  * hyper link:
+
   ```html
   <html>
     <head>
@@ -110,7 +120,9 @@ description: Step-by-step guide to web development basics including HTML, CSS, a
     </body>
   </html>
   ```
-  - image:
+
+  * image:
+
   ```html
   <html>
     <head>
@@ -126,22 +138,24 @@ description: Step-by-step guide to web development basics including HTML, CSS, a
 
 ## [Web Development Tutorial for Beginners 2](https://www.youtube.com/watch?v=gBi8Obib0tw)
 
-- use `<!Doctype html>` in all of the files
-- `index.html` is the first file the browser looking for it at the beginning
-- adding style to webpage
-  - create new file named `main.css` (css : Cascading style sheets)
-    ```
+* use `<!Doctype html>` in all of the files
+* `index.html` is the first file the browser looking for it at the beginning
+* adding style to webpage
+
+  * create new file named `main.css` (css : Cascading style sheets)
+
+    ```css
     body {
         background : red ;
     }
     ```
-  - the file contains a selector `body` : where we pick something we add syle to
-  - rule contains : property `background` and a value `red`
-- there are two ways to add style to your webpage
+  * the file contains a selector `body` : where we pick something we add syle to
+  * rule contains : property `background` and a value `red`
+* there are two ways to add style to your webpage
 
-  - put the style lines inside the `html` file itself
+  * put the style lines inside the `html` file itself
 
-  ```
+  ```html
       <style type="text/css">
           body
           {
@@ -150,10 +164,10 @@ description: Step-by-step guide to web development basics including HTML, CSS, a
       </style>
   ```
 
-  - this method is not effictive if we want to style too many files
-  - `OR` we can put them in a separate file and link them to the created file `main.css`
+  * this method is not effictive if we want to style too many files
+  * `OR` we can put them in a separate file and link them to the created file `main.css`
 
-  ```
+  ```css
   h1
   {
       color: brown;
@@ -164,10 +178,10 @@ description: Step-by-step guide to web development basics including HTML, CSS, a
   }
               <link href="main.css" rel="stylesheet" type="text/css">
   ```
+* to change the font : `font-family: 'Courier New';`
+* to change another part
 
-- to change the font : `font-family: 'Courier New';`
-- to change another part
-  ```
+  ```css
   h1
   {
       color: brown;
@@ -177,35 +191,41 @@ description: Step-by-step guide to web development basics including HTML, CSS, a
       background: darkkhaki;
   }
   ```
-- i can also do that
-  ```
+* i can also do that
+
+  ```css
   h1,h2
   {
      color: brown;
   }
   ```
-- if i have more than one paragraph for example and i want just one of them to change its style, i should use `class`
-  - first in the file that i want to specify its style
-    - `<p class="first">The content of machines page</p>`
-  - in `main.css` files :
-    ```
+* if i have more than one paragraph for example and i want just one of them to change its style, i should use `class`
+
+  * first in the file that i want to specify its style
+
+    * `<p class="first">The content of machines page</p>`
+  * in `main.css` files :
+
+    ```css
     .first
     {
         background: rgb(36, 36, 92);
     }
     ```
-  - i can give the class to any other selector to use
-- if there are two different styles for one paragraph for example the last one will override, that why it called css (cascading style sheets)
-- `note` if there is a class and there is a new selector the one which has the class will dominate the other
-- there is another method called `id` i can use to identify specific style
-  - `<p id="first">The content of machines page</p>`
-  - in `main.css` files :
-    ```
+  * i can give the class to any other selector to use
+* if there are two different styles for one paragraph for example the last one will override, that why it called css (cascading style sheets)
+* `note` if there is a class and there is a new selector the one which has the class will dominate the other
+* there is another method called `id` i can use to identify specific style
+
+  * `<p id="first">The content of machines page</p>`
+  * in `main.css` files :
+
+    ```css
     #first
     {
         background: rgb(36, 36, 92);
     }
     ```
-- the difference between `class` and `id` is the class can be used more than one in the same page, while id cannot, it just used by only one selector
+* the difference between `class` and `id` is the class can be used more than one in the same page, while id cannot, it just used by only one selector
 
 ## [How to create CSS Layouts - Web Development Tutorial for Beginners (#3) - with HTML & CSS](https://www.youtube.com/watch?v=9tzyJEwO9Os)
