@@ -1,0 +1,4 @@
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+# This file assigns people/teams that are required to review every PR touching specific paths.
+
+* @saif-abdelrazek
