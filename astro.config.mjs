@@ -9,7 +9,7 @@ import netlify from '@astrojs/netlify';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://fablabgharbia.netlify.app',
+  site: 'https://fablabgharbiya.netlify.app',
 
   integrations: [
       starlight({
@@ -34,13 +34,13 @@ export default defineConfig({
               name: 'Saif Abdelrazek',
               title: 'FabLab Gharbia Developer',
               picture: '/saifabdelrazek.jpg',
-              url: 'https://www.saifabdelrazek.com',
+              url: 'https://saifabdelrazek.com',
           },
       },
 	})
           ],
           social: [
-              { icon: 'github', label: 'GitHub', href: 'https://github.com/fablabgharbia/docs' },
+              { icon: 'github', label: 'GitHub', href: 'https://github.com/stemgharbiya/fablab' },
           ],
           head: [
               // Meta tags for site verification
@@ -55,7 +55,7 @@ export default defineConfig({
                   tag: 'meta',
                   attrs: {
                       name: 'google-site-verification',
-                      content: 'O6m7pE8it0AIdabIBBkBi8lPgacgag9PlVoBXV_O8oA',
+                      content: '85Q0P25MDzjJfz0s79b4QJA0AcswaB-_rhm1bfLH5Sk',
                   },
               },
               // Favicon
@@ -72,7 +72,7 @@ export default defineConfig({
                   tag: 'script',
                   attrs: {
                       defer: true,
-                      src: 'https://umami.saifdev.org/script.js',
+                      src: 'https://insights.a8k.dev/script.js',
                       'data-website-id': '42658e4e-4a81-4138-8c72-bf9c64fa1575',
                   },
               },
