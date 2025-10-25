@@ -55,7 +55,7 @@ export default defineConfig({
                   tag: 'meta',
                   attrs: {
                       name: 'google-site-verification',
-                      content: '85Q0P25MDzjJfz0s79b4QJA0AcswaB-_rhm1bfLH5Sk',
+                      content: 'nQzP6vl1ErIF3skzJIk616gkBUwCwIfqR6bZ4bh8u2s',
                   },
               },
               // Favicon
