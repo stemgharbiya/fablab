@@ -5,22 +5,23 @@ description: Status and information about all available machines in the FabLab
 
 # Machines
 
-## [Laser Cutter](/machines/laser-cutter)
+
+## [Laser Cutter](/fablab/machines/laser-cutter/)
 
 `status`: working
 
-## [3D Printer](/machines/3d-printer)
+## [3D Printer](/fablab/machines/3d-printer/)
 
 `status`: working
 
-## [Monofab](/machines/monofab)
+## [Monofab](/fablab/machines/monofab/)
 
 `status`: working
 
-## [ShopBot](/machines/shopbot)
+## [ShopBot](/fablab/machines/shopbot/)
 
 `status`: not working
 
-## [Vinyl Cutter](/machines/vinyl-cutter)
+## [Vinyl Cutter](/fablab/machines/vinyl-cutter/)
 
 `status`: working

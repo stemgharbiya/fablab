@@ -13,7 +13,7 @@ Master modern web development with static site generators and web application fr
 
 ## 🚀 Static Site Generators
 
-### [Hugo - Fast & Flexible](/challenges/web/gohugo/)
+### [Hugo - Fast & Flexible](/fablab/challenges/web/gohugo/)
 Learn to build lightning-fast websites with Hugo, one of the most popular static site generators:
 - Installation and setup
 - Project structure and configuration
@@ -21,7 +21,7 @@ Learn to build lightning-fast websites with Hugo, one of the most popular static
 - Content management
 - Deployment strategies
 
-### [Jekyll - GitHub Pages Ready](/challenges/web/jekyll/)
+### [Jekyll - GitHub Pages Ready](/fablab/challenges/web/jekyll/)
 Master Jekyll, the static site generator that powers GitHub Pages:
 - Ruby environment setup
 - Liquid templating language
@@ -30,7 +30,7 @@ Master Jekyll, the static site generator that powers GitHub Pages:
 
 ## 🌐 Web Applications
 
-### [Modern Web App Development](/challenges/web/web-app/)
+### [Modern Web App Development](/fablab/challenges/web/web-app/)
 Explore contemporary web application development techniques:
 - Frontend frameworks and libraries
 - Backend API development

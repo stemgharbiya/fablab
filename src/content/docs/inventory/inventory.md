@@ -5,10 +5,11 @@ description: Master index of all FabLab inventories including components, machin
 
 # Inventory
 
-## [Components Inventory](/inventory/components)
 
-## [Machine Inventory](/inventory/machine-inventory)
+## [Components Inventory](/fablab/inventory/components/)
 
-## [Materials Inventory](/inventory/materials-inventory)
+## [Machine Inventory](/fablab/inventory/machine-inventory/)
 
-## [Tools Inventory](/inventory/tools-inventory)
+## [Materials Inventory](/fablab/inventory/materials-inventory/)
+
+## [Tools Inventory](/fablab/inventory/tools-inventory/)
