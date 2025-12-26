@@ -53,14 +53,14 @@ export default defineConfig({
           tag: "meta",
           attrs: {
             name: "msvalidate.01",
-            content: "172AB24A6FB2AE59B2ADE9024918D626",
+            content: "511C6E4BE414856821B2DE790CDEE4AC",
           },
         },
         {
           tag: "meta",
           attrs: {
             name: "google-site-verification",
-            content: "nQzP6vl1ErIF3skzJIk616gkBUwCwIfqR6bZ4bh8u2s",
+            content: "7Ao6rGmOuR8vJ8hid9HCkGuqcMmH9O6eTjUEQU80p6E",
           },
         },
         // Favicon
