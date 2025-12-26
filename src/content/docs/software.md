@@ -5,6 +5,7 @@ description: Complete guide to software tools used in the FabLab for various mac
 
 # Softwares
 
-## [Machine Software](/machine-software)
 
-## [FreeCAD](/freecad)
+## [Machine Software](/fablab/machine-software/)
+
+## [FreeCAD](/fablab/freecad/)
