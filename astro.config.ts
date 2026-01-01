@@ -14,6 +14,10 @@ import {
   BLOG_CONFIG,
 } from "./src/data/constants";
 
+import icon from "astro-icon";
+
+import tailwindcss from "@tailwindcss/vite";
+
 // https://astro.build/config
 export default defineConfig({
   site: SITE_CONFIG.site,
@@ -23,6 +27,10 @@ export default defineConfig({
   integrations: [
     starlight({
       title: SITE_CONFIG.title,
+      customCss: [
+        // Path to your Tailwind base styles:
+        "./src/styles/global.css",
+      ],
       plugins: [
         starlightLinksValidator(),
         starlightThemeNova({
@@ -37,5 +45,10 @@ export default defineConfig({
       head: HEAD_TAGS,
       sidebar: SIDEBAR_CONFIG,
     }),
+    icon(),
   ],
+
+  vite: {
+    plugins: [tailwindcss()],
+  },
 });
