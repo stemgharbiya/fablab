@@ -17,13 +17,16 @@ export function getAuthorSlug(person: TeamMember): string {
 
 // Get primary URL
 export function getPrimaryUrl(person: TeamMember): string | undefined {
-  return (
-    person.personalSite ||
-    Object.values(person.social)[0] ||
-    `${SITE_CONFIG.site}${SITE_CONFIG.base}/blog/authors/${getAuthorSlug(
-      person
-    )}/`
-  );
+  // Find the first contact URL (excluding email)
+  for (const [key, value] of Object.entries(person.contact)) {
+    if (key !== "email" && value && value.trim()) {
+      return value.trim();
+    }
+  }
+  // Fallback to author page
+  return `${SITE_CONFIG.site}${SITE_CONFIG.base}/blog/authors/${getAuthorSlug(
+    person
+  )}/`;
 }
 
 // Generate authors object for blog integration

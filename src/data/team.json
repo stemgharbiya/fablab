@@ -4,30 +4,28 @@
       "name": "Erfan Zahra",
       "type": "engineer",
       "position": "FabLab Engineer",
-      "image": "erfan_zahra.jpg",
+      "image": "erfan_zahra.png",
       "bio": "Specializes in digital fabrication equipment maintenance and training.",
-      "email": "erfan.zahra@stemgharbiya.moe.edu.eg",
       "workYears": { "start": 2024, "current": true },
       "expertise": ["CNC Maintenance", "Laser Cutting", "Equipment Training"],
-      "social": {
-        "linkedin": "",
-        "github": ""
+      "contact": {
+        "email": "erfan.zahra@stemgharbiya.moe.edu.eg"
       }
     },
     {
       "name": "Ahmed Khairy",
       "type": "engineer",
       "position": "FabLab Engineer",
-      "image": "ahmed_khairy.jpg",
+      "image": "ahmed_khairy.png",
       "bio": "Former FabLab engineer with experience from 2014-2024.",
-      "email": "ahmed.khairy@stemgharbiya.moe.edu.eg",
       "workYears": { "start": 2014, "end": 2024, "current": false },
       "expertise": [
         "All FabLab Systems",
         "Documentation",
         "Project Management"
       ],
-      "social": {
+      "contact": {
+        "email": "ahmed.khairy@stemgharbiya.moe.edu.eg",
         "github": "https://github.com/ahmed-khairy"
       }
     }
@@ -35,11 +33,10 @@
   "members": [
     {
       "name": "Saif Abdelrazek",
-      "type": "student",
+      "type": "member",
       "position": "Software Instructor & Web Developer",
       "image": "saif_abdelrazek.jpg",
       "bio": "Develops and maintains the FabLab website and digital systems.",
-      "email": "saif@saifabdelrazek.com",
       "seniorYear": 26,
       "expertise": [
         "Web Development",
@@ -47,19 +44,19 @@
         "Database Management",
         "Vinyl Cutting"
       ],
-      "personalSite": "https://saifabdelrazek.com",
-      "social": {
+      "contact": {
+        "email": "saif@saifabdelrazek.com",
+        "website": "https://saifabdelrazek.com",
         "github": "https://github.com/saif-abdelrazek",
         "linkedin": "https://www.linkedin.com/in/saifabdelrazek"
       }
     },
     {
       "name": "Abdelfattah Rizk",
-      "type": "student",
+      "type": "member",
       "position": "Hardware Instructor",
       "image": "abdelfattah_rizk.jpg",
       "bio": "Teaches FabLab equipment operation including laser cutters, CNC machines, and 3D printers.",
-      "email": "abdelfattah",
       "seniorYear": 26,
       "expertise": [
         "Equipment Training",
@@ -67,24 +64,23 @@
         "Hardware Tools",
         "Workshop Instruction"
       ],
-      "social": {
+      "contact": {
         "instagram": "https://www.instagram.com/_te7a_3/"
       }
     },
     {
       "name": "Mostafa Abdelkader",
-      "type": "student",
+      "type": "member",
       "position": "3D Printing Specialist",
       "image": "mostafa_abdelkader.jpg",
       "bio": "Specializes in 3D printing operations, maintenance, and manages 3D printing equipment.",
-      "email": "mostafa",
       "seniorYear": 27,
       "expertise": [
         "3D Printing",
         "3D Printer Maintenance",
         "Equipment Management"
       ],
-      "social": {
+      "contact": {
         "whatsapp": "https://wa.me/+201125606657"
       }
     }

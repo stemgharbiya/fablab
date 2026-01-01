@@ -1,19 +1,22 @@
 export interface TeamMember {
   name: string;
-  type: "engineer" | "student";
+  type: "engineer" | "member";
   position: string;
   image: string;
   bio: string;
-  email: string;
   workYears?: {
     start: number;
-    end: number | "current";
+    end?: number;
     current?: boolean;
   };
   seniorYear?: number;
   expertise: string[];
-  personalSite?: string;
-  social: Record<string, string>;
+  contact: {
+    email: string;
+    website: string;
+    github: string;
+    linkedin: string;
+  };
 }
 
 export interface TeamData {
