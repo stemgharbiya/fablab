@@ -1,8 +1,8 @@
-# Gharbiya FabLab Documentation
+# Gharbiya FabLab
 
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 
-Welcome to the Gharbiya FabLab documentation repository! This website serves as a comprehensive resource for our digital fabrication laboratory, providing information about our equipment, software tools, learning resources, and community projects.
+Welcome to the Gharbiya FabLab repository! This website serves as a comprehensive resource for our digital fabrication laboratory, providing information about our equipment, software tools, learning resources, and community projects.
 
 ## Features
 
@@ -12,6 +12,8 @@ Welcome to the Gharbiya FabLab documentation repository! This website serves as 
 - **Inventory Management**: Comprehensive listings of components, materials, and tools
 - **Community Projects**: Showcases of student work and team achievements
 - **Blog**: Latest updates, tutorials, and community stories
+ - **Team Profiles & Page**: Member profiles, contact info, and a dedicated `team` page with data stored in `src/data/team.json` and helper functions in `src/lib/team.ts`
+ - **UI & Styling**: Added UI and styling dependencies to improve the site layout and member cards
 
 ## Project Structure
 
@@ -27,8 +29,10 @@ Inside of your Astro + Starlight project, you'll see the following folders and f
 │   ├── content/
 │   │   ├── blog/           # Blog posts
 │   │   └── docs/           # Documentation pages
+│   ├── pages/
+│   │   └── team.astro      # Team page with member profiles
 │   └── content.config.ts
-├── astro.config.mjs
+├── astro.config.ts         # Project config (refactored to TypeScript; uses shared constants)
 ├── package.json
 └── tsconfig.json
 ```
