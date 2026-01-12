@@ -40,7 +40,7 @@ export function getBlogAuthors() {
     authors[slug(person.name)] = {
       name: person.name,
       title: person.position, // position becomes 'title' in authors
-      picture: `src/assets/team/${person.image}`,
+      picture: `/assets/team/${person.image}`,
       url: getPrimaryUrl(person), // First social media URL
     };
   });
