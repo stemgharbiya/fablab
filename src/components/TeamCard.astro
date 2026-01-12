@@ -1,0 +1,83 @@
+---
+import { Icon } from 'astro-icon/components';
+import { Image } from 'astro:assets';
+
+interface Member {
+  name: string;
+  type: 'engineer' | 'member';
+  position: string;
+  image: string;
+  bio?: string;
+  workYears?: { start: number; end?: number; current: boolean };
+  seniorYear?: number;
+  expertise?: string[];
+  contact?: Record<string, string>;
+}
+
+const { member } = Astro.props as { member: Member };
+
+const contactIcons: Record<string, string> = {
+  email: 'mdi:email',
+  github: 'mdi:github',
+  website: 'mdi:web',
+  linkedin: 'mdi:linkedin',
+  instagram: 'mdi:instagram',
+  whatsapp: 'mdi:whatsapp',
+  twitter: 'mdi:twitter',
+};
+
+const memberImage = import(`../assets/team/${member.image}`);
+---
+
+<li class="relative flex flex-col bg-clip-border rounded-lg bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200 shadow-sm hover:shadow-md transition-shadow duration-150">
+  <div class="p-6 text-center">
+    <Image
+      src={memberImage}
+      alt={member.name}
+      class="inline-block object-cover rounded-full w-[110px] h-[110px] mx-auto mb-5 ring-2 ring-gray-100 dark:ring-slate-800 object-top"
+    />
+
+    <h5 class="antialiased tracking-normal font-sans leading-snug text-lg font-medium text-slate-900 dark:text-white">
+      {member.name}
+    </h5>
+
+    <p class="antialiased font-sans leading-relaxed mb-3 text-sm font-semibold text-gray-600 dark:text-gray-400">
+      {member.position}
+    </p>
+
+    {member.type === 'member' && member.seniorYear ? (
+      <span class="inline-block bg-blue-500 text-white text-xs px-2 py-1 rounded-full mb-3">S{member.seniorYear}</span>
+    ) : null}
+
+    {member.type === 'engineer' && member.workYears ? (
+      <p class="text-sm text-gray-600 dark:text-gray-400 mb-3">
+        {member.workYears.current ? `Since ${member.workYears.start}` : `${member.workYears.start} - ${member.workYears.end}`}
+      </p>
+    ) : null}
+
+    {member.bio ? (
+      <p class="text-sm text-slate-700 dark:text-slate-300 mb-4 line-clamp-3">
+        {member.bio}
+      </p>
+    ) : null}
+
+    <div class="flex items-center justify-center gap-3">
+      {Object.entries(member.contact ?? {}).map(([key, value]) => {
+        const iconName = contactIcons[key];
+        if (!iconName) return null;
+        const href = key === 'email' ? `mailto:${value}` : value;
+        return (
+          <a
+            href={href}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center justify-center w-10 h-10 rounded-lg bg-gray-100 dark:bg-slate-800 text-gray-900 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-slate-700 transition-colors"
+            aria-label={key}
+          >
+            <Icon name={iconName} size={18} />
+          </a>
+        );
+      })}
+    </div>
+  </div>
+</li>
