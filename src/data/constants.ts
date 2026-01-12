@@ -73,7 +73,7 @@ export const NAV_ITEMS: NavItem[] = [
   { label: "Home", href: "/fablab/" },
   { label: "About", href: "/fablab/fablab-info/" },
   { label: "Blog", href: "/fablab/blog/" },
-  { label: "Team", href: "/fablab/team/fablab-team-members/" },
+  { label: "Team", href: "/fablab/team/" },
 ];
 
 export const SOCIAL_LINKS: SocialLink[] = [
