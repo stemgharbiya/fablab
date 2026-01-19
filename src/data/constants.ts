@@ -70,7 +70,6 @@ export const SITE_CONFIG: SiteConfig = {
 };
 
 export const NAV_ITEMS: NavItem[] = [
-  { label: "Home", href: "/fablab/" },
   { label: "About", href: "/fablab/fablab-info/" },
   { label: "Blog", href: "/fablab/blog/" },
   { label: "Team", href: "/fablab/team/" },

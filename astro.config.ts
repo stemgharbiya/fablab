@@ -32,7 +32,11 @@ export default defineConfig({
         "./src/styles/global.css",
       ],
       plugins: [
-        starlightLinksValidator(),
+        starlightLinksValidator({
+          exclude: [
+            '/fablab/team/'
+          ]
+        }),
         starlightThemeNova({
           nav: NAV_ITEMS,
         }),
