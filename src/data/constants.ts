@@ -148,10 +148,16 @@ export const SIDEBAR_CONFIG: Sidebar = [
   },
   {
     label: "Team & Activities",
-    autogenerate: {
-      directory: "team",
-      collapsed: false,
-    },
+    items: [
+      { label: "Meet our Team", link: "/team" },
+      {
+        label: "Activities",
+        autogenerate: {
+          directory: "team",
+          collapsed: false,
+        },
+      },
+    ],
   },
   {
     label: "Inventory",
