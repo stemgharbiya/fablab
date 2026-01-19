@@ -3,8 +3,6 @@ title: Tools Inventory
 description: Visual catalog of hand tools, power tools, and equipment available in the FabLab
 ---
 
-# tools
-
 - ![tools3](../../../assets/docs/inventory/tools3.jpg)
 - ![tools4](../../../assets/docs/inventory/tools4.jpg)
 - ![tools24](../../../assets/docs/inventory/tools24.jpg)

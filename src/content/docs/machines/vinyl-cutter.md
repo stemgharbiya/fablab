@@ -3,8 +3,6 @@ title: Vinyl Cutter - Roland GS-24
 description: Guide to using the Roland GS-24 vinyl cutter for creating stickers, decals, and signage
 ---
 
-# vinyl cutter - roland gs24
-
 ## Purpose
 
 - `Stickers and Decals` : Whether you stick them on a skateboard, a laptop, a sports helmet or a car window, stickers are the ultimate print product for fun branding and labeling projects  

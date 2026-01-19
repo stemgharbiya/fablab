@@ -3,8 +3,6 @@ title: Laser Cutter - Epilog 24x12
 description: Guide to using the Epilog laser cutter for engraving and cutting various materials
 ---
 
-# Laser cutter - Epilog 24\*12
-
 ## Purpose
 
 - Award Engraving

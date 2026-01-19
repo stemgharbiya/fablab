@@ -3,7 +3,6 @@ title: Machine Software Guide
 description: Comprehensive list of software required for different fabrication machines
 ---
 
-# machines softwares
 ## Laser cutter
 - `coreldraw`
 - `inkscape`

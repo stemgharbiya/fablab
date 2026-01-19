@@ -3,7 +3,6 @@ title: FreeCAD
 description: Installation and usage guide for FreeCAD 3D modeling software
 ---
 
-# freecad
 ## how to install
 - open `ubuntu software`
 - search `freecad` and choose version `0.18`

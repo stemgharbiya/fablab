@@ -3,8 +3,6 @@ title: Electronic Components Inventory
 description: Comprehensive catalog of electronic components available in the FabLab, including microcontrollers and other electronics
 ---
 
-# Electronics components
-
 - Micro controller
   - ![comp1](../../../assets/docs/inventory/comp129.jpg)
   - ![comp1](../../../assets/docs/inventory/comp125.jpg)

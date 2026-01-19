@@ -3,7 +3,6 @@ title: FabLab Team Members
 description: Complete list of all FabLab team members and their roles
 ---
 
-# Fablab Team members
 - Boys
     - abd allah
     - abd alrahman

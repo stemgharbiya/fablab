@@ -3,8 +3,6 @@ title: Hugo Static Site Generator
 description: Guide to installing and using Hugo for building fast and flexible websites
 ---
 
-# gohugo
-
 ## What is gohugo
 
 `Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.`

@@ -3,9 +3,6 @@ title: Machines
 description: Status and information about all available machines in the FabLab
 ---
 
-# Machines
-
-
 ## [Laser Cutter](/fablab/machines/laser-cutter/)
 
 `status`: working

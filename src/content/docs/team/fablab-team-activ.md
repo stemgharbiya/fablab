@@ -3,7 +3,6 @@ title: Team Activities Log
 description: Chronological record of FabLab team meetings, projects, and learning activities
 ---
 
-# Fablab Team members activities
 ## FabLab Team sixth meeting : electronic simulation 30/10/2019
 - design requirement
   - using any simulation software to test one of these circuits 555 ic circuit transistor as a switch circuit 7 segment circuit (with decoder or without) h bridge circuit OR ANY CIRCUIT YOU WANT TO TEST, AT LEST HAVE THREE COMPONENTS simulation software : proteus, multisim, .....   your are not restricted to these two

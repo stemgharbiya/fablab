@@ -3,7 +3,6 @@ title: Web Development Tutorial
 description: Step-by-step guide to web development basics including HTML, CSS,
   and JavaScript
 ---
-# Web application development
 
 ## [Web Development Tutorial for Beginners 1](https://www.youtube.com/watch?v=3JluqTojuME)
 

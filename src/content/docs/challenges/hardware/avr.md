@@ -3,8 +3,6 @@ title: AVR Programming Guide
 description: Comprehensive guide to AVR microcontroller programming in C, based on Elliot Williams' book
 ---
 
-# AVR programming
-
 ## Make: AVR Programming by Elliot Williams (MAKE). Copyright 2014 Elliot Williams, 978-1-4493-5578-4.
 
 - Why using `C` language?

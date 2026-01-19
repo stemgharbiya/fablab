@@ -5,8 +5,6 @@ description: Guide to using the Ultimaker 2+ 3D printer, including setup,
 machineType: 3D Printer
 ---
 
-# 3D printer - ultimaker 2+
-
 ![ultimaker](../../../assets/docs/machines/ultimaker.png)  
 ![ultimaker2](../../../assets/docs/machines/ultimaker2.png)
 

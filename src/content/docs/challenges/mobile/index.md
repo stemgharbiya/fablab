@@ -3,11 +3,9 @@ title: Mobile App Development
 description: Index of Android development tutorials and learning resources
 ---
 
-# Mobile Application Development
-
 Learn mobile app development with our comprehensive Android tutorial series. Each tutorial builds upon the previous one, taking you from beginner to confident Android developer.
 
-## 📱 Android Development Series
+## Android Development Series
 
 ### [Part 1: Getting Started](/fablab/challenges/mobile/android1/)
 - Android Studio installation and setup

@@ -3,8 +3,6 @@ title: Monofab SRM-20 Mill
 description: Guide to using the Roland Monofab SRM-20 for PCB milling, prototyping, and precision cutting
 ---
 
-# Monofab - srm20
-
 ![monofab](../../../assets/docs/machines/monofab.png)  
 ![monofab2](../../../assets/docs/machines/monofab2.png)
 
