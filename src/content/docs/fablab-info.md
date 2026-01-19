@@ -3,8 +3,6 @@ title: About FabLab
 description: Introduction to FabLab concept, its global presence, and mission in digital fabrication
 ---
 
-# FabLab
-
 ## What is Fablab?
 - A fab lab (fabrication laboratory) is a small-scale workshop offering (personal) digital fabrication (CAD and CAM)
 - A fab lab is typically equipped with computer-controlled machines that cover several different length scales and various materials, with the aim to make "almost anything".

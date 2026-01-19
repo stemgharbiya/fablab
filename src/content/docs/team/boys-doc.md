@@ -3,7 +3,6 @@ title: Boys Team Documentation
 description: Documentation of projects and work done by the male team members
 ---
 
-# Boys documentations
 ## Anas hashim - Vinyl cutter
 - Multi Layer `vinyl cutter` - 30/10/2019
 - ![anas](../../../assets/docs/team/anas-doc5.png)

@@ -3,11 +3,9 @@ title: Hardware & Electronics
 description: Learn microcontroller programming and custom circuit board design
 ---
 
-# Hardware & Electronics
-
 Dive into the world of embedded systems and custom electronics. These tutorials cover microcontroller programming and PCB design fundamentals.
 
-## 🔌 Microcontroller Programming
+## Microcontroller Programming
 
 ### [AVR Programming Guide](/fablab/challenges/hardware/avr/)
 Comprehensive guide to AVR microcontroller programming using C language, based on Elliot Williams' "Make: AVR Programming" book. Learn about:
@@ -16,7 +14,7 @@ Comprehensive guide to AVR microcontroller programming using C language, based o
 - Development toolchain setup
 - Programming fundamentals and best practices
 
-## 🔧 Custom Circuit Boards
+## Custom Circuit Boards
 
 ### [PCB Design & Fabrication](/fablab/challenges/hardware/boards/)
 Hands-on experience with custom PCB design and fabrication, featuring:

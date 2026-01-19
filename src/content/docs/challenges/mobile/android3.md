@@ -3,7 +3,7 @@ title: Android Development - Part 3
 description: Advanced Android concepts including Activity Lifecycle and app state management
 ---
 
-# [Android Studio Tutorial for Beginners (Step by Step tutorial)](https://www.youtube.com/playlist?list=PLS1QulWo1RIbb1cYyzZpLFCKvdYV_yJ-E)
+## [Android Studio Tutorial for Beginners (Step by Step tutorial)](https://www.youtube.com/playlist?list=PLS1QulWo1RIbb1cYyzZpLFCKvdYV_yJ-E)
 
 ## [Android Tutorial for Beginners 5 - Android Activity Lifecycle](https://www.youtube.com/watch?v=odqACn2Vgic&list=PLS1QulWo1RIbb1cYyzZpLFCKvdYV_yJ-E&index=6)
 

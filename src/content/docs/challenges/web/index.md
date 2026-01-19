@@ -7,11 +7,9 @@ sidebar:
     variant: note
 ---
 
-# Web Development
-
 Master modern web development with static site generators and web application frameworks. Learn to build fast, responsive, and maintainable websites.
 
-## 🚀 Static Site Generators
+## Static Site Generators
 
 ### [Hugo - Fast & Flexible](/fablab/challenges/web/gohugo/)
 Learn to build lightning-fast websites with Hugo, one of the most popular static site generators:

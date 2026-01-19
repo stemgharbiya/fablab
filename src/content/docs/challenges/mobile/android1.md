@@ -3,7 +3,6 @@ title: Android Development - Part 1
 description: Getting started with Android development - Installation and setup guide
 ---
 
-# Android App Development for Beginners
 ## [Android App Development for Beginners - 1 - Introduction](https://www.youtube.com/watch?v=QAbQgLGKd3Y)
 - installing java jdk from the [link](https://www.oracle.com/technetwork/java/javase/downloads/jdk13-downloads-5672538.html)
 - set java path like [this](https://docs.oracle.com/cd/E19062-01/sun.mgmt.ctr36/819-5418/gaznb/index.html)

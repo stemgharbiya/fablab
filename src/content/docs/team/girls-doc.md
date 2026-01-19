@@ -3,8 +3,6 @@ title: Girls Team Documentation
 description: Documentation of projects and work done by the female team members
 ---
 
-# Girls documentations
-
 ## Gehad zein - milling
 
 - after finish the design, export `stl` file

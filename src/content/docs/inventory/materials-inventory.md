@@ -3,7 +3,6 @@ title: Materials Inventory
 description: Current stock status of consumable materials and supplies used in the FabLab
 ---
 
-# materials
 - solders : `available`
 - zippers : `available`
 - wax for modeling : `available`

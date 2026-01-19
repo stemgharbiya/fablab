@@ -3,8 +3,6 @@ title: Custom Circuit Board Projects
 description: Documentation of custom PCB designs and fabrication attempts, including ATtiny44 USB board
 ---
 
-# New Boards
-
 ## attiny 44 with usb port
 
 - first try

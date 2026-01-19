@@ -3,11 +3,9 @@ title: Documentation Tools
 description: Learn to create beautiful documentation and convert between different formats
 ---
 
-# Documentation Tools
-
 Master the art of technical documentation with powerful tools that help you create, maintain, and convert documentation across different formats.
 
-## 📖 Documentation Site Generators
+## Documentation Site Generators
 
 ### [MkDocs - Simple & Fast](/fablab/challenges/documentation/mkdocs/)
 Build beautiful documentation sites with MkDocs:
@@ -17,7 +15,7 @@ Build beautiful documentation sites with MkDocs:
 - Easy configuration with YAML
 - Perfect for project documentation
 
-## 🔄 Document Conversion
+## Document Conversion
 
 ### [Pandoc - Universal Converter](/fablab/challenges/documentation/pandoc/)
 Convert documents between virtually any markup format with Pandoc:

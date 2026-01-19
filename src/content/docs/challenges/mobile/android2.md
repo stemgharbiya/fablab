@@ -3,8 +3,6 @@ title: Android Development - Part 2
 description: Advanced concepts in Android development - IDE setup and development fundamentals
 ---
 
-# Become-an-android-developer-from-scratch
-
 ## [Welcome video](https://www.udemy.com/course/become-an-android-developer-from-scratch/learn/lecture/1046310#overview)
 
 ## [Why android studio](https://www.udemy.com/course/become-an-android-developer-from-scratch/learn/lecture/2128242#overview)
