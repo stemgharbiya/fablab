@@ -6,29 +6,29 @@ description: Guide to using the Roland GS-24 vinyl cutter for creating stickers,
 ## Purpose
 
 - `Stickers and Decals` : Whether you stick them on a skateboard, a laptop, a sports helmet or a car window, stickers are the ultimate print product for fun branding and labeling projects  
-  ![sticker](../../../assets/docs/machines/sticker.jpg)  
-  ![sticker2](../../../assets/docs/machines/sticker2.jpg)
+  ![sticker](../../../assets/docs/machines/sticker.webp)  
+  ![sticker2](../../../assets/docs/machines/sticker2.webp)
 
 - Signage Printing and Vinyl Wrap  
-  ![sticker3](../../../assets/docs/machines/sticker3.jpg)  
-  ![sticker4](../../../assets/docs/machines/sticker4.jpg)
+  ![sticker3](../../../assets/docs/machines/sticker3.webp)  
+  ![sticker4](../../../assets/docs/machines/sticker4.webp)
 
 ## Minimum knowledge to use machine
 
-![vinyl](../../../assets/docs/machines/vinyl.png)  
-![vinyl-back](../../../assets/docs/machines/vinyl-back.png)  
-![panel](../../../assets/docs/machines/panel.png)  
-![panel2](../../../assets/docs/machines/panel2.png)
+![vinyl](../../../assets/docs/machines/vinyl.webp)  
+![vinyl-back](../../../assets/docs/machines/vinyl-back.webp)  
+![panel](../../../assets/docs/machines/panel.webp)  
+![panel2](../../../assets/docs/machines/panel2.webp)
 
 - material size : width (50 - 700 mm), length (100m), roll (no restriction)
 - don't load media that weight over 5kg
 - material thickness of 0.1mm or less, 1mm maximum with carrier paper
 - The pinch rollers must not extend beyond the grit marks  
-  ![error](../../../assets/docs/machines/error.png)
+  ![error](../../../assets/docs/machines/error.webp)
 - Align the left edge of the material so that it lies approximately parallel to the guide lines  
-  ![align](../../../assets/docs/machines/align.png)
+  ![align](../../../assets/docs/machines/align.webp)
 - The amount of blade extension can be adjusted by 0.1 mm for each scale mark on the cap, and by 0.5 mm for a full turn.  
-  ![holder](../../../assets/docs/machines/blade-holder.png)
+  ![holder](../../../assets/docs/machines/blade-holder.webp)
 - File Formats that can be Imported into CutStudio
   - JPEG
     - JPEG files saved in CMYK format cannot be imported.
@@ -43,18 +43,18 @@ description: Guide to using the Roland GS-24 vinyl cutter for creating stickers,
 ## Materials
 
 - Vinyl :  
-  ![vinyl](../../../assets/docs/machines/vinyl.jpg)
+  ![vinyl](../../../assets/docs/machines/vinyl.webp)
 
 - Sandblast material :  
-  ![Sandblast](../../../assets/docs/machines/Sandblast.jpg)
+  ![Sandblast](../../../assets/docs/machines/Sandblast.webp)
 
 - Paint mask :  
-  ![paint-mask](../../../assets/docs/machines/paint-mask.jpg)
+  ![paint-mask](../../../assets/docs/machines/paint-mask.webp)
 
 - Twill :  
-  ![twill](../../../assets/docs/machines/twill.jpg)
+  ![twill](../../../assets/docs/machines/twill.webp)
 - Heat transfer material :  
-  ![heat-trans](../../../assets/docs/machines/heat-trans.jpeg)
+  ![heat-trans](../../../assets/docs/machines/heat-trans.webp)
 
 ## Working time
 
@@ -67,19 +67,19 @@ description: Guide to using the Roland GS-24 vinyl cutter for creating stickers,
 - Perform a Cutting Test
   - To obtain high-quality cutting results, carry out a cutting test to check the cutting quality for the material before you perform the actual cutting.
   - Check that the PEN FORCE slider is in its center setting  
-    ![pen-force](../../../assets/docs/machines/pen-force.png)
+    ![pen-force](../../../assets/docs/machines/pen-force.webp)
   - Hold down `test` key for one second or longer
   - The test pattern is cut  
-    ![cut](../../../assets/docs/machines/cut.png)
+    ![cut](../../../assets/docs/machines/cut.webp)
   - Peel off circle
-    ![circle](../../../assets/docs/machines/circle.png)  
-    ![ok](../../../assets/docs/machines/ok.png)
+    ![circle](../../../assets/docs/machines/circle.webp)  
+    ![ok](../../../assets/docs/machines/ok.webp)
   - Peel off rectangle  
-    ![rectangle](../../../assets/docs/machines/rectangle.png)  
-    ![ok2](../../../assets/docs/machines/ok2.png)
+    ![rectangle](../../../assets/docs/machines/rectangle.webp)  
+    ![ok2](../../../assets/docs/machines/ok2.webp)
 - Cleaning the Machine
   - Items required : Cloth soaked in water and thoroughly wrung out  
-     ![clean](../../../assets/docs/machines/clean.png)
+     ![clean](../../../assets/docs/machines/clean.webp)
 - Cleaning the Blade Holder Cap
   - If there is a buildup of material adhesive or dust inside the cap, loosen the cap, remove it, and remove any foreign matter. If pieces of material or dust build up inside the blade holder cap, the blade will stop turning smoothly and will no longer cut cleanly.
 
@@ -93,20 +93,20 @@ description: Guide to using the Roland GS-24 vinyl cutter for creating stickers,
 ## Advanced
 
 - try crop marks method (marks as a guide)  
-  ![crop](../../../assets/docs/machines/crop-marks.png)
+  ![crop](../../../assets/docs/machines/crop-marks.webp)
 - try Cutting Perforated Lines (dotted lines)  
-  ![dotted](../../../assets/docs/machines/dotted.png)
+  ![dotted](../../../assets/docs/machines/dotted.webp)
 - try Tiled Output (large typing)  
-  ![tiled](../../../assets/docs/machines/tiled.png)
+  ![tiled](../../../assets/docs/machines/tiled.webp)
 - General Guide for Amount of Blade Extension  
-  ![adjust](../../../assets/docs/machines/adjust.png)
+  ![adjust](../../../assets/docs/machines/adjust.webp)
 - Extending the Cutting Area (EXTEND) : It is possible to extend the cutting area by up to 20 mm.  
-  ![extend](../../../assets/docs/machines/extend.png)
+  ![extend](../../../assets/docs/machines/extend.webp)
 - Cutting Detailed Characters and Complex Shapes  
-  ![smooth](../../../assets/docs/machines/smooth.png)
+  ![smooth](../../../assets/docs/machines/smooth.webp)
 - Cutting in the Same Position Repetitively (Overlap)  
-  ![overlap](../../../assets/docs/machines/overlap.png)
+  ![overlap](../../../assets/docs/machines/overlap.webp)
 - Cutting Corners Cleanly (Over Cut) : This function cuts an extra 1 mm at the start and end of each line. It is effective when you want to produce particularly sharp corners, for example when cutting
   thicker materials. In most cases the over cut function should be set to "OFF." Set it to ON when you want to ensure that corners are cut cleanly.  
-  ![over-cut](../../../assets/docs/machines/over-cut.png)  
-  ![over-cut2](../../../assets/docs/machines/over-cut2.png)
+  ![over-cut](../../../assets/docs/machines/over-cut.webp)  
+  ![over-cut2](../../../assets/docs/machines/over-cut2.webp)

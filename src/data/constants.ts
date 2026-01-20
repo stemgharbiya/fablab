@@ -99,15 +99,6 @@ export const HEAD_TAGS: HeadTag[] = [
       content: "7Ao6rGmOuR8vJ8hid9HCkGuqcMmH9O6eTjUEQU80p6E",
     },
   },
-  // Favicon
-  {
-    tag: "link",
-    attrs: {
-      rel: "icon",
-      href: "/fablab-logo.png",
-      type: "image/svg+xml",
-    },
-  },
   // Umami analytics script tag
   {
     tag: "script",
