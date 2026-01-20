@@ -27,7 +27,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: SITE_CONFIG.title,
-      favicon: './src/assets/fablab-logo.png',
+      favicon: '/favicon-32.png',
       customCss: [
         // Path to your Tailwind base styles:
         "./src/styles/global.css",
