@@ -20,12 +20,18 @@ export interface SocialLink {
 }
 
 export type HeadTag = {
-  tag: "title" | "link" | "style" | "base" | "meta" | "script" | "noscript" | "template";
+  tag:
+    | "title"
+    | "link"
+    | "style"
+    | "base"
+    | "meta"
+    | "script"
+    | "noscript"
+    | "template";
   attrs?: Record<string, string | boolean | undefined>;
   content?: string;
 };
-
-
 
 export interface BlogConfig {
   metrics: {
@@ -66,7 +72,8 @@ export const SITE_CONFIG: SiteConfig = {
   base: "/fablab",
   trailingSlash: "always",
   title: "Gharbiya FabLab",
-  description: "The digital fabrication hub of STEM Gharbiya. Discover the tools, knowledge, and student innovations that define the forefront of hands-on technical education in the region.",
+  description:
+    "The digital fabrication hub of STEM Gharbiya. Discover the tools, knowledge, and student innovations that define the forefront of hands-on technical education in the region.",
 };
 
 export const NAV_ITEMS: NavItem[] = [
@@ -84,6 +91,33 @@ export const SOCIAL_LINKS: SocialLink[] = [
 ];
 
 export const HEAD_TAGS: HeadTag[] = [
+  {
+    tag: "link",
+    attrs: { rel: "icon", href: "/fablab/favicon-16.png", sizes: "16x16" },
+  },
+  {
+    tag: "link",
+    attrs: { rel: "icon", href: "/fablab/favicon-32.png", sizes: "32x32" },
+  },
+  {
+    tag: "link",
+    attrs: { rel: "icon", href: "/fablab/favicon-48.png", sizes: "48x48" },
+  },
+  {
+    tag: "link",
+    attrs: {
+      rel: "apple-touch-icon",
+      sizes: "180x180",
+      href: "/fablab/favicon-180.png",
+    },
+  },
+  {
+    tag: "link",
+    attrs: {
+      rel: "shortcut icon",
+      href: "/fablab/favicon.ico",
+    },
+  },
   // Meta tags for site verification
   {
     tag: "meta",
@@ -176,4 +210,3 @@ export const BLOG_CONFIG: BlogConfig = {
     words: "total",
   },
 };
-
