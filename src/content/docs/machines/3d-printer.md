@@ -5,43 +5,43 @@ description: Guide to using the Ultimaker 2+ 3D printer, including setup,
 machineType: 3D Printer
 ---
 
-![ultimaker](../../../assets/docs/machines/ultimaker.png)  
-![ultimaker2](../../../assets/docs/machines/ultimaker2.png)
+![ultimaker](../../../assets/docs/machines/ultimaker.webp)  
+![ultimaker2](../../../assets/docs/machines/ultimaker2.webp)
 
 ## Purpose
 
 - Example prints using Ultimaker PLA
 
   - Precise model visualization  
-    ![pla1](../../../assets/docs/machines/pla1.png)
+    ![pla1](../../../assets/docs/machines/pla1.webp)
 
   - Detailed concept models  
-    ![pla2](../../../assets/docs/machines/pla2.png)
+    ![pla2](../../../assets/docs/machines/pla2.webp)
 
   - Low melting temperature  
-    ![pla3](../../../assets/docs/machines/pla3.png)
+    ![pla3](../../../assets/docs/machines/pla3.webp)
 
 - Example prints using Ultimaker ABS
 
   - Test your prototypes  
-    ![abs1](../../../assets/docs/machines/abs1.png)
+    ![abs1](../../../assets/docs/machines/abs1.webp)
 
   - Fit testing  
-    ![abs2](../../../assets/docs/machines/abs2.png)
+    ![abs2](../../../assets/docs/machines/abs2.webp)
 
   - Versatile capabilities  
-    ![abs3](../../../assets/docs/machines/abs3.png)
+    ![abs3](../../../assets/docs/machines/abs3.webp)
 
 - Example prints using Ultimaker CPE
 
   - Adaptable and versatile  
-    ![cpe1](../../../assets/docs/machines/cpe1.png)
+    ![cpe1](../../../assets/docs/machines/cpe1.webp)
 
   - Reliable, chemical resistant parts  
-    ![cpe2](../../../assets/docs/machines/cpe2.png)
+    ![cpe2](../../../assets/docs/machines/cpe2.webp)
 
   - Complex geometries are easy  
-    ![cpe3](../../../assets/docs/machines/cpe3.png)
+    ![cpe3](../../../assets/docs/machines/cpe3.webp)
 
 ## Minimum knowledge to use machine
 
@@ -70,25 +70,25 @@ machineType: 3D Printer
 - `CLEANING THE GLASS PLATE` : After a lot of printing, there might be too much excess glue stuck to the glass plate. This can cause an uneven print surface and it is therefore recommended to clean the glass plate once in a while.
 - `FEEDER TENSION` : In order to guide the filament properly through the feeder into the bowden tube and print head, it is important that the tension on the feeder is set correctly, If the tension is too high, it means that the knurled wheel of the feeder will dig into
   the filament, through which it flattens or gets stuck. This is called grinding. To prevent grinding of the filament, ensure that the white insert clip at the right side of the feeder is set in the middle.  
-  ![tension](../../../assets/docs/machines/tension.png)
+  ![tension](../../../assets/docs/machines/tension.webp)
 - `LUBRICATING THE AXES` : To maintain your Ultimaker 2+ correctly and keep it running smoothly, it is recommended to lubricate the axes periodically
   - When you notice small ridges on the surfaces of your 3D printed objects or feel that the X and Y axes are dry, it is advised to put a single drop of sewing machine oil onto the X and Y axes. This will help your Ultimaker 2+ to run smoothly. Sewing machine oil is not included in the Ultimaker 2+ package, but we highly recommend using only this to lubricate the X and Y axes.  
-    ![lubricate](../../../assets/docs/machines/lubricant.png)
+    ![lubricate](../../../assets/docs/machines/lubricant.webp)
   - Once every 6 months, the Z trapezoidal leadscrew has to be lubricated with Magnalube. This is the green grease that was delivered with your Ultimaker 2+. Spread 10 drops of grease over the entire threaded rod. With your next print, the Ultimaker 2+ will lubricate the axis by moving up and down.  
-    ![lubricate2](../../../assets/docs/machines/lubricate2.png)
+    ![lubricate2](../../../assets/docs/machines/lubricate2.webp)
 - `ATOMIC METHOD` : After longer use of your Ultimaker 2+, you might notice that it cannot extrude enough plastic anymore. This so called under extrusion is usually shown by very thin or missing layers in a print. In most cases, it is caused by some dirt or carbonized material in the nozzle or another hot end part through which a (partial) blockage is created
   1. remove the filament
   2. remove the tube  
-     ![atmoic](../../../assets/docs/machines/atomic.png)
+     ![atmoic](../../../assets/docs/machines/atomic.webp)
   3. heat up the nozzle to 260 Degree
   4. Cut off approximately 20 cm of filament with a straight cut and try to straighten the filament as much as possible
   5. When the temperature is reached, insert the straightened piece of filament manually all the way down to the nozzle
   6. Push it slightly until either the new filament comes out of the nozzle or until the filament cannot be pushed any further.  
-     ![atomic2](../../../assets/docs/machines/atomic2.png)
+     ![atomic2](../../../assets/docs/machines/atomic2.webp)
   7. Lower the temperature to 90 degrees
   8. Pull the filament out with a quick, firm pull, once the temperature has been reached
   9. Repeat “heating up and preparing” and “removing the new filament” until the filament comes out without any residue and has a cone-shaped tip.  
-     ![atomic3](../../../assets/docs/machines/atomic3.png)
+     ![atomic3](../../../assets/docs/machines/atomic3.webp)
 
 ### Date
 
