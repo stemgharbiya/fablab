@@ -1,9 +1,10 @@
 export interface TeamMember {
+  slug: string;
   name: string;
   type: "engineer" | "member";
   position: string;
   image: string;
-  bio: string;
+  bio?: string;
   workYears?: {
     start: number;
     end?: number;
@@ -12,14 +13,11 @@ export interface TeamMember {
   seniorYear?: number;
   expertise: string[];
   contact: {
-    email: string;
-    website: string;
-    github: string;
-    linkedin: string;
+    email?: string;
+    website?: string;
+    github?: string;
+    linkedin?: string;
+    instagram?: string;
+    whatsapp?: string;
   };
-}
-
-export interface TeamData {
-  engineers: TeamMember[];
-  members: TeamMember[];
 }

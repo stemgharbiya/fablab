@@ -1,0 +1,29 @@
+[
+  {
+    "slug": "erfan_zahra",
+    "name": "Erfan Zahra",
+    "type": "engineer",
+    "position": "FabLab Engineer",
+    "image": "../assets/team/erfan_zahra.png",
+    "bio": "Specializes in digital fabrication equipment maintenance and training.",
+    "workYears": { "start": 2024, "current": true },
+    "expertise": ["CNC Maintenance", "Laser Cutting", "Equipment Training"],
+    "contact": {
+      "email": "erfan.zahra@stemgharbiya.moe.edu.eg"
+    }
+  },
+  {
+    "slug": "ahmed_khairy",
+    "name": "Ahmed Khairy",
+    "type": "engineer",
+    "position": "FabLab Engineer",
+    "image": "../assets/team/ahmed_khairy.png",
+    "bio": "Former FabLab engineer with experience from 2014-2024.",
+    "workYears": { "start": 2014, "end": 2024, "current": false },
+    "expertise": ["All FabLab Systems", "Documentation", "Project Management"],
+    "contact": {
+      "email": "ahmed.khairy@stemgharbiya.moe.edu.eg",
+      "github": "https://github.com/ahmed-khairy"
+    }
+  }
+]
