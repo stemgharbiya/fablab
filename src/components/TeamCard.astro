@@ -1,17 +1,19 @@
 ---
 import { Icon } from 'astro-icon/components';
-import { getImage } from 'astro:assets';
+import Image from 'astro/components/Image.astro';
+import type { ImageMetadata } from 'astro';
+
 
 interface Member {
   name: string;
   type: 'engineer' | 'member';
   position: string;
-  image: string;
+  image: ImageMetadata;
   bio?: string;
   workYears?: { start: number; end?: number; current: boolean };
   seniorYear?: number;
   expertise?: string[];
-  contact?: Record<string, string>;
+  contact?: Record<string, string | undefined>;
 }
 
 const { member } = Astro.props as { member: Member };
@@ -25,24 +27,12 @@ const contactIcons: Record<string, string> = {
   whatsapp: 'mdi:whatsapp',
   twitter: 'mdi:twitter',
 };
-
-let memberImage: string | undefined;
-try {
-  // Check if image exists before importing
-  const imageModule = `/fablab/assets/team/${member.image}`;
-  const imgResult = await getImage({ src: imageModule, width: 200, height: 200 });
-  memberImage = (imgResult as { src: string }).src;
-} catch {
-  // Fallback to a placeholder or default image
-  const placeholder = `https://ui-avatars.com/api/?name=${encodeURIComponent(member.name)}`
-  memberImage = placeholder;
-}
 ---
 
 <li class="relative flex flex-col bg-clip-border rounded-lg bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200 shadow-sm hover:shadow-md transition-shadow duration-150">
   <div class="p-6 text-center">
-    <img
-      src={memberImage}
+    <Image
+      src={member.image}
       alt={member.name}
       class="inline-block object-cover rounded-full w-[110px] h-[110px] mx-auto mb-5 ring-2 ring-gray-100 dark:ring-slate-800 object-top"
     />

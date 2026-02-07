@@ -1,88 +1,58 @@
-{
-  "engineers": [
-    {
-      "name": "Erfan Zahra",
-      "type": "engineer",
-      "position": "FabLab Engineer",
-      "image": "erfan_zahra.png",
-      "bio": "Specializes in digital fabrication equipment maintenance and training.",
-      "workYears": { "start": 2024, "current": true },
-      "expertise": ["CNC Maintenance", "Laser Cutting", "Equipment Training"],
-      "contact": {
-        "email": "erfan.zahra@stemgharbiya.moe.edu.eg"
-      }
-    },
-    {
-      "name": "Ahmed Khairy",
-      "type": "engineer",
-      "position": "FabLab Engineer",
-      "image": "ahmed_khairy.png",
-      "bio": "Former FabLab engineer with experience from 2014-2024.",
-      "workYears": { "start": 2014, "end": 2024, "current": false },
-      "expertise": [
-        "All FabLab Systems",
-        "Documentation",
-        "Project Management"
-      ],
-      "contact": {
-        "email": "ahmed.khairy@stemgharbiya.moe.edu.eg",
-        "github": "https://github.com/ahmed-khairy"
-      }
+[
+  {
+    "slug": "saif_abdelrazek",
+    "name": "Saif Abdelrazek",
+    "type": "member",
+    "position": "Software Instructor & Web Developer",
+    "image": "../assets/team/saif_abdelrazek.jpg",
+    "bio": "Develops and maintains the FabLab website and digital systems.",
+    "seniorYear": 26,
+    "expertise": [
+      "Web Development",
+      "Backend Systems",
+      "Database Management",
+      "Vinyl Cutting"
+    ],
+    "contact": {
+      "email": "saif@saifabdelrazek.com",
+      "website": "https://saifabdelrazek.com",
+      "github": "https://github.com/saif-abdelrazek",
+      "linkedin": "https://www.linkedin.com/in/saifabdelrazek"
     }
-  ],
-  "members": [
-    {
-      "name": "Saif Abdelrazek",
-      "type": "member",
-      "position": "Software Instructor & Web Developer",
-      "image": "saif_abdelrazek.jpg",
-      "bio": "Develops and maintains the FabLab website and digital systems.",
-      "seniorYear": 26,
-      "expertise": [
-        "Web Development",
-        "Backend Systems",
-        "Database Management",
-        "Vinyl Cutting"
-      ],
-      "contact": {
-        "email": "saif@saifabdelrazek.com",
-        "website": "https://saifabdelrazek.com",
-        "github": "https://github.com/saif-abdelrazek",
-        "linkedin": "https://www.linkedin.com/in/saifabdelrazek"
-      }
-    },
-    {
-      "name": "Abdelfattah Rizk",
-      "type": "member",
-      "position": "Hardware Instructor",
-      "image": "abdelfattah_rizk.jpg",
-      "bio": "Teaches FabLab equipment operation including laser cutters, CNC machines, and 3D printers.",
-      "seniorYear": 26,
-      "expertise": [
-        "Equipment Training",
-        "Laser Cutting",
-        "Hardware Tools",
-        "Workshop Instruction"
-      ],
-      "contact": {
-        "instagram": "https://www.instagram.com/_te7a_3/"
-      }
-    },
-    {
-      "name": "Mostafa Abdelkader",
-      "type": "member",
-      "position": "3D Printing Specialist",
-      "image": "mostafa_abdelkader.jpg",
-      "bio": "Specializes in 3D printing operations, maintenance, and manages 3D printing equipment.",
-      "seniorYear": 27,
-      "expertise": [
-        "3D Printing",
-        "3D Printer Maintenance",
-        "Equipment Management"
-      ],
-      "contact": {
-        "whatsapp": "https://wa.me/+201125606657"
-      }
+  },
+  {
+    "slug": "abdelfattah_rizk",
+    "name": "Abdelfattah Rizk",
+    "type": "member",
+    "position": "Hardware Instructor",
+    "image": "../assets/team/abdelfattah_rizk.jpg",
+    "bio": "Teaches FabLab equipment operation including laser cutters, CNC machines, and 3D printers.",
+    "seniorYear": 26,
+    "expertise": [
+      "Equipment Training",
+      "Laser Cutting",
+      "Hardware Tools",
+      "Workshop Instruction"
+    ],
+    "contact": {
+      "instagram": "https://www.instagram.com/_te7a_3/"
     }
-  ]
-}
+  },
+  {
+    "slug": "mostafa_abdelkader",
+    "name": "Mostafa Abdelkader",
+    "type": "member",
+    "position": "3D Printing Specialist",
+    "image": "../assets/team/mostafa_abdelkader.jpg",
+    "bio": "Specializes in 3D printing operations, maintenance, and manages 3D printing equipment.",
+    "seniorYear": 27,
+    "expertise": [
+      "3D Printing",
+      "3D Printer Maintenance",
+      "Equipment Management"
+    ],
+    "contact": {
+      "whatsapp": "https://wa.me/+201125606657"
+    }
+  }
+]
