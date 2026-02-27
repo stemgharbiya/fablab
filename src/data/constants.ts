@@ -168,7 +168,6 @@ export const SIDEBAR_CONFIG: Sidebar = [
     label: "Software & Tools",
     items: [
       { label: "FreeCAD", link: "/freecad" },
-      { label: "Software Guide", link: "/software" },
     ],
   },
   {
