@@ -15,7 +15,7 @@ description: Status and information about all available machines in the FabLab
 
 `status`: working
 
-## [ShopBot](/fablab/machines/shopbot/)
+## ShopBot
 
 `status`: not working
 
