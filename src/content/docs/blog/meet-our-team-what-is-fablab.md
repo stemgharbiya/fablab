@@ -10,7 +10,7 @@ authors:
 
 ## Meet Our Team
 
-At FabLab Gharbia, our team is a diverse group of passionate makers, engineers, designers, and innovators. Each member brings unique skills and perspectives, working together to foster creativity and empower our community. We believe in collaboration, learning, and sharing knowledge to help everyone turn their ideas into reality.
+At FabLab Gharbiya, our team is a diverse group of passionate makers, engineers, designers, and innovators. Each member brings unique skills and perspectives, working together to foster creativity and empower our community. We believe in collaboration, learning, and sharing knowledge to help everyone turn their ideas into reality.
 
 ## What is FabLab?
 
@@ -27,4 +27,4 @@ We aim to:
 
 ## Join Us!
 
-Whether you are a student, hobbyist, or professional, FabLab Gharbia welcomes you. Come visit us, join a workshop, or start your own project. Together, we can make, learn, and innovate!
+Whether you are a student, hobbyist, or professional, FabLab Gharbiya welcomes you. Come visit us, join a workshop, or start your own project. Together, we can make, learn, and innovate!
