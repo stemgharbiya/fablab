@@ -7,7 +7,7 @@ Dive into the world of embedded systems and custom electronics. These tutorials 
 
 ## Microcontroller Programming
 
-### [AVR Programming Guide](/fablab/challenges/hardware/avr/)
+### [AVR Programming Guide](/challenges/hardware/avr/)
 Comprehensive guide to AVR microcontroller programming using C language, based on Elliot Williams' "Make: AVR Programming" book. Learn about:
 - Why use C for microcontroller programming
 - AVR architecture and components
@@ -16,7 +16,7 @@ Comprehensive guide to AVR microcontroller programming using C language, based o
 
 ## Custom Circuit Boards
 
-### [PCB Design & Fabrication](/fablab/challenges/hardware/boards/)
+### [PCB Design & Fabrication](/challenges/hardware/boards/)
 Hands-on experience with custom PCB design and fabrication, featuring:
 - ATtiny44 USB board project
 - PCB design challenges and solutions
