@@ -76,9 +76,9 @@ export const SITE_CONFIG: SiteConfig = {
 };
 
 export const NAV_ITEMS: NavItem[] = [
-  { label: "About", href: "/fablab/fablab-info/" },
-  { label: "Blog", href: "/fablab/blog/" },
-  { label: "Team", href: "/fablab/team/" },
+  { label: "About", href: "/fablab-info/" },
+  { label: "Blog", href: "/blog/" },
+  { label: "Team", href: "/team/" },
 ];
 
 export const SOCIAL_LINKS: SocialLink[] = [
@@ -92,29 +92,29 @@ export const SOCIAL_LINKS: SocialLink[] = [
 export const HEAD_TAGS: HeadTag[] = [
   {
     tag: "link",
-    attrs: { rel: "icon", href: "/fablab/favicon-16.png", sizes: "16x16" },
+    attrs: { rel: "icon", href: "/favicon-16.png", sizes: "16x16" },
   },
   {
     tag: "link",
-    attrs: { rel: "icon", href: "/fablab/favicon-32.png", sizes: "32x32" },
+    attrs: { rel: "icon", href: "/favicon-32.png", sizes: "32x32" },
   },
   {
     tag: "link",
-    attrs: { rel: "icon", href: "/fablab/favicon-48.png", sizes: "48x48" },
+    attrs: { rel: "icon", href: "/favicon-48.png", sizes: "48x48" },
   },
   {
     tag: "link",
     attrs: {
       rel: "apple-touch-icon",
       sizes: "180x180",
-      href: "/fablab/favicon-180.png",
+      href: "/favicon-180.png",
     },
   },
   {
     tag: "link",
     attrs: {
       rel: "shortcut icon",
-      href: "/fablab/favicon.ico",
+      href: "/favicon.ico",
     },
   },
   // Meta tags for site verification

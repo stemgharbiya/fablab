@@ -7,7 +7,7 @@ Master the art of technical documentation with powerful tools that help you crea
 
 ## Documentation Site Generators
 
-### [MkDocs - Simple & Fast](/fablab/challenges/documentation/mkdocs/)
+### [MkDocs - Simple & Fast](/challenges/documentation/mkdocs/)
 Build beautiful documentation sites with MkDocs:
 - Python-based static site generator
 - Markdown-driven content creation
@@ -17,7 +17,7 @@ Build beautiful documentation sites with MkDocs:
 
 ## Document Conversion
 
-### [Pandoc - Universal Converter](/fablab/challenges/documentation/pandoc/)
+### [Pandoc - Universal Converter](/challenges/documentation/pandoc/)
 Convert documents between virtually any markup format with Pandoc:
 - Installation and setup
 - Supported formats (Markdown, HTML, LaTeX, Word, etc.)

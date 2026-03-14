@@ -35,7 +35,7 @@ export default defineConfig({
       plugins: [
         starlightLinksValidator({
           exclude: [
-            '/fablab/team/'
+            '/team/'
           ]
         }),
         starlightThemeNova({
