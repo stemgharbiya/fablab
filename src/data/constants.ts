@@ -68,8 +68,7 @@ type Sidebar = Array<
 
 export const SITE_CONFIG: SiteConfig = {
   name: "Gharbiya FabLab",
-  site: "https://stemgharbiya.github.io",
-  base: "/fablab",
+  site: "https://fablab.stemgh.org",
   trailingSlash: "always",
   title: "Gharbiya FabLab",
   description:

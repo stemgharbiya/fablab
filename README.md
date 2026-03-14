@@ -96,7 +96,7 @@ Copyright (c) 2025 STEM Gharbiya.
 
 ## Contact
 
-- **FabLab Website**: [https://stemgharbiya.github.io/fablab/](https://stemgharbiya.github.io/fablab/)
+- **FabLab Website**: [https://fablab.stemgh.org](https://fablab.stemgh.org)
 - **GitHub Repository**: [https://github.com/stemgharbiya/fablab](https://github.com/stemgharbiya/fablab)
 
 ## Acknowledgments
